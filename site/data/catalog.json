@@ -1,0 +1,2853 @@
+{
+ "_read_me": "Made by tools/build_catalog.py. Edit that file and run it, rather than editing this one by hand.",
+ "tabs": [
+  {
+   "id": "alien",
+   "name": "Alien",
+   "title": "Alien",
+   "tagline": "Xenomorphs, Colonial Marines and the Nostromo crew",
+   "sections": [
+    "Alien (1979)",
+    "Aliens (1986)",
+    "Alien 3, Resurrection and Isolation",
+    "Prometheus, Covenant, Romulus and Earth",
+    "Kenner Tribute creatures",
+    "Alien vs. Predator",
+    "Video games",
+    "Everything else"
+   ]
+  },
+  {
+   "id": "predator",
+   "name": "Predator",
+   "title": "Predator",
+   "tagline": "Every hunter NECA has made, from the jungle to the Badlands",
+   "sections": [
+    "Predator (1987)",
+    "Predator 2 (1990)",
+    "Alien vs. Predator",
+    "Predators (2010) and The Predator (2018)",
+    "Prey and Badlands",
+    "Games, comics and concepts",
+    "Everything else"
+   ]
+  },
+  {
+   "id": "robocop",
+   "name": "RoboCop",
+   "title": "RoboCop",
+   "tagline": "Dead or alive, you're coming with me",
+   "sections": [
+    "RoboCop (1987)",
+    "RoboCop 2 and 3",
+    "Video games",
+    "Everything else"
+   ]
+  },
+  {
+   "id": "terminator",
+   "name": "Terminator",
+   "title": "Terminator",
+   "tagline": "T-800s, T-1000s and the Connors",
+   "sections": [
+    "The Terminator (1984)",
+    "Terminator 2: Judgment Day (1991)",
+    "Later films",
+    "Video games",
+    "Everything else"
+   ]
+  },
+  {
+   "id": "thing",
+   "name": "The Thing",
+   "title": "The Thing (1982)",
+   "tagline": "John Carpenter's The Thing, Outpost 31",
+   "sections": [
+    "The Thing (1982)",
+    "Everything else"
+   ]
+  },
+  {
+   "id": "efny",
+   "name": "Escape From New York",
+   "title": "Escape From New York",
+   "tagline": "Snake Plissken, Manhattan 1997",
+   "sections": [
+    "Escape From New York (1981)",
+    "Everything else"
+   ]
+  }
+ ],
+ "figures": [
+  {
+   "id": "efny-snake",
+   "tabs": [
+    "efny"
+   ],
+   "section": "Escape From New York (1981)",
+   "name": "Snake Plissken",
+   "match": [
+    [
+     "plissken"
+    ],
+    [
+     "escape from new york"
+    ],
+    [
+     "escape from ny"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "thing-dog",
+   "tabs": [
+    "thing"
+   ],
+   "section": "The Thing (1982)",
+   "name": "Dog Creature (Ultimate Deluxe)",
+   "match": [
+    [
+     "dog creature"
+    ],
+    [
+     "the thing",
+     "dog"
+    ]
+   ],
+   "not": [
+    "addams",
+    "wednesday",
+    "fantastic four",
+    "marvel"
+   ]
+  },
+  {
+   "id": "thing-poster",
+   "tabs": [
+    "thing"
+   ],
+   "section": "The Thing (1982)",
+   "name": "The Thing (Poster Series, light up)",
+   "match": [
+    [
+     "the thing",
+     "poster"
+    ],
+    [
+     "thing",
+     "lenticular"
+    ],
+    [
+     "the thing",
+     "40th"
+    ]
+   ],
+   "not": [
+    "addams",
+    "wednesday",
+    "fantastic four",
+    "marvel",
+    "robocop",
+    "predator"
+   ]
+  },
+  {
+   "id": "thing-laststand",
+   "tabs": [
+    "thing"
+   ],
+   "section": "The Thing (1982)",
+   "name": "MacReady (Last Stand)",
+   "match": [
+    [
+     "macready",
+     "last stand"
+    ],
+    [
+     "the thing",
+     "last stand"
+    ],
+    [
+     "macready",
+     "v3"
+    ],
+    [
+     "macready",
+     "v 3"
+    ]
+   ],
+   "not": [
+    "outpost",
+    "station"
+   ]
+  },
+  {
+   "id": "thing-station",
+   "tabs": [
+    "thing"
+   ],
+   "section": "The Thing (1982)",
+   "name": "MacReady (Station Survival)",
+   "match": [
+    [
+     "station survival"
+    ],
+    [
+     "macready",
+     "v2"
+    ],
+    [
+     "macready",
+     "version 2"
+    ],
+    [
+     "macready",
+     "v 2"
+    ]
+   ],
+   "not": [
+    "outpost",
+    "last stand"
+   ]
+  },
+  {
+   "id": "thing-outpost",
+   "tabs": [
+    "thing"
+   ],
+   "section": "The Thing (1982)",
+   "name": "MacReady (Outpost 31)",
+   "match": [
+    [
+     "macready",
+     "outpost"
+    ],
+    [
+     "outpost 31"
+    ],
+    [
+     "macready",
+     "v1"
+    ],
+    [
+     "macready",
+     "version 1"
+    ]
+   ],
+   "not": [
+    "last stand",
+    "station"
+   ]
+  },
+  {
+   "id": "thing-macready",
+   "tabs": [
+    "thing"
+   ],
+   "section": "The Thing (1982)",
+   "name": "MacReady (version not in title)",
+   "match": [
+    [
+     "macready"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "rvt",
+   "tabs": [
+    "robocop",
+    "terminator"
+   ],
+   "section": "Video games",
+   "name": "RoboCop vs. The Terminator (game figures)",
+   "match": [
+    [
+     "robocop",
+     "terminator"
+    ],
+    [
+     "endocop"
+    ],
+    [
+     "endoskeleton assault"
+    ],
+    [
+     "heavy gunner"
+    ],
+    [
+     "terminator dog"
+    ],
+    [
+     "robocop",
+     "rocket launcher"
+    ],
+    [
+     "robocop",
+     "flamethrower"
+    ],
+    [
+     "robocop",
+     "flame thrower"
+    ],
+    [
+     "future robocop"
+    ],
+    [
+     "plasma rifle"
+    ]
+   ],
+   "not": [
+    "endoglow",
+    "endo glow",
+    "sarah",
+    "lot"
+   ]
+  },
+  {
+   "id": "term-darkfate",
+   "tabs": [
+    "terminator"
+   ],
+   "section": "Later films",
+   "name": "Terminator: Dark Fate (T-800 and Sarah Connor)",
+   "match": [
+    [
+     "dark fate"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "term-genisys",
+   "tabs": [
+    "terminator"
+   ],
+   "section": "Later films",
+   "name": "Terminator Genisys (T-800 Guardian, T-1000)",
+   "match": [
+    [
+     "genisys"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "term-connors",
+   "tabs": [
+    "terminator"
+   ],
+   "section": "Terminator 2: Judgment Day (1991)",
+   "name": "Sarah and John Connor",
+   "match": [
+    [
+     "sarah"
+    ],
+    [
+     "john connor"
+    ],
+    [
+     "connor"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "term-reese",
+   "tabs": [
+    "terminator"
+   ],
+   "section": "The Terminator (1984)",
+   "name": "Kyle Reese",
+   "match": [
+    [
+     "kyle reese"
+    ],
+    [
+     "reese"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "term-endo",
+   "tabs": [
+    "terminator"
+   ],
+   "section": "Terminator 2: Judgment Day (1991)",
+   "name": "T-800 Endoskeleton (all versions)",
+   "match": [
+    [
+     "endoskeleton"
+    ],
+    [
+     "endoglow"
+    ],
+    [
+     "endo glow"
+    ],
+    [
+     "metal mash"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "term-t1000",
+   "tabs": [
+    "terminator"
+   ],
+   "section": "Terminator 2: Judgment Day (1991)",
+   "name": "T-1000 (all versions)",
+   "match": [
+    [
+     "t 1000"
+    ],
+    [
+     "t 100"
+    ],
+    [
+     "motorcycle cop"
+    ],
+    [
+     "liquid metal"
+    ],
+    [
+     "liquid nitrogen"
+    ],
+    [
+     "white hot"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "term-t800-t2",
+   "tabs": [
+    "terminator"
+   ],
+   "section": "Terminator 2: Judgment Day (1991)",
+   "name": "T-800 (Terminator 2)",
+   "match": [
+    [
+     "pescadero"
+    ],
+    [
+     "cyberdyne"
+    ],
+    [
+     "steel mill"
+    ],
+    [
+     "final battle"
+    ],
+    [
+     "galleria"
+    ],
+    [
+     "man or machine"
+    ],
+    [
+     "battle across time"
+    ],
+    [
+     "power arm"
+    ],
+    [
+     "terminator 2"
+    ],
+    [
+     "t2"
+    ],
+    [
+     "judgment day"
+    ]
+   ],
+   "not": [
+    "t 1000",
+    "predator",
+    "dutch"
+   ]
+  },
+  {
+   "id": "term-t800-video",
+   "tabs": [
+    "terminator"
+   ],
+   "section": "Video games",
+   "name": "T-800 (8-bit video game)",
+   "match": [
+    [
+     "t 800",
+     "video game"
+    ],
+    [
+     "t 800",
+     "8 bit"
+    ],
+    [
+     "terminator",
+     "nes"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "term-t800",
+   "tabs": [
+    "terminator"
+   ],
+   "section": "The Terminator (1984)",
+   "name": "T-800 (The Terminator)",
+   "match": [
+    [
+     "tech noir"
+    ],
+    [
+     "police station"
+    ],
+    [
+     "tanker"
+    ],
+    [
+     "t 800"
+    ],
+    [
+     "schwarzenegger"
+    ],
+    [
+     "the terminator"
+    ]
+   ],
+   "not": [
+    "predator",
+    "dutch"
+   ]
+  },
+  {
+   "id": "robo-ed209",
+   "tabs": [
+    "robocop"
+   ],
+   "section": "RoboCop (1987)",
+   "name": "ED-209",
+   "match": [
+    [
+     "ed 209"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "robo-3",
+   "tabs": [
+    "robocop"
+   ],
+   "section": "RoboCop 2 and 3",
+   "name": "RoboCop 3 (Jetpack and Assault Cannon)",
+   "match": [
+    [
+     "jetpack"
+    ],
+    [
+     "jet pack"
+    ],
+    [
+     "robocop 3"
+    ],
+    [
+     "assault cannon"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "robo-night",
+   "tabs": [
+    "robocop"
+   ],
+   "section": "RoboCop (1987)",
+   "name": "Night Fighter RoboCop (glow in the dark)",
+   "match": [
+    [
+     "night fighter"
+    ],
+    [
+     "robocop",
+     "glow"
+    ],
+    [
+     "robocop",
+     "gitd"
+    ],
+    [
+     "glowinthedark"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "robo-chair",
+   "tabs": [
+    "robocop"
+   ],
+   "section": "RoboCop (1987)",
+   "name": "Ultimate Battle Damaged RoboCop with Chair",
+   "match": [
+    [
+     "robocop",
+     "chair"
+    ],
+    [
+     "omni consumer"
+    ],
+    [
+     "ocp",
+     "chair"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "robo-murphy",
+   "tabs": [
+    "robocop"
+   ],
+   "section": "RoboCop (1987)",
+   "name": "Ultimate Alex Murphy (OCP Uniform)",
+   "match": [
+    [
+     "uniform"
+    ],
+    [
+     "alex j murphy"
+    ],
+    [
+     "alex murphy"
+    ],
+    [
+     "murphey"
+    ]
+   ],
+   "not": [
+    "poster",
+    "jetpack",
+    "holster",
+    "battle damage",
+    "battle damaged"
+   ]
+  },
+  {
+   "id": "robo-video",
+   "tabs": [
+    "robocop"
+   ],
+   "section": "Video games",
+   "name": "RoboCop (8-bit NES video game)",
+   "match": [
+    [
+     "robocop",
+     "nes"
+    ],
+    [
+     "robocop",
+     "8 bit"
+    ],
+    [
+     "robocop",
+     "video game"
+    ],
+    [
+     "robocop",
+     "nintendo"
+    ],
+    [
+     "robocop",
+     "1989"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "robo-bd",
+   "tabs": [
+    "robocop"
+   ],
+   "section": "RoboCop (1987)",
+   "name": "Battle Damaged RoboCop (2012)",
+   "match": [
+    [
+     "robocop",
+     "battle damaged"
+    ],
+    [
+     "robocop",
+     "battle damage"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "robo-holster",
+   "tabs": [
+    "robocop"
+   ],
+   "section": "RoboCop (1987)",
+   "name": "RoboCop with Spring Loaded Holster",
+   "match": [
+    [
+     "robocop",
+     "holster"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "robo-poster",
+   "tabs": [
+    "robocop"
+   ],
+   "section": "RoboCop (1987)",
+   "name": "RoboCop (Poster Series)",
+   "match": [
+    [
+     "robocop",
+     "poster"
+    ],
+    [
+     "robocop",
+     "red suit"
+    ],
+    [
+     "robocop",
+     "future of law enforcement"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "robo-ultimate",
+   "tabs": [
+    "robocop"
+   ],
+   "section": "RoboCop (1987)",
+   "name": "Ultimate RoboCop",
+   "match": [
+    [
+     "ultimate",
+     "robocop"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "robo-classic",
+   "tabs": [
+    "robocop"
+   ],
+   "section": "RoboCop (1987)",
+   "name": "RoboCop (2011 original release)",
+   "match": [
+    [
+     "robocop",
+     "2011"
+    ],
+    [
+     "robocop",
+     "25th"
+    ],
+    [
+     "robocop",
+     "first series"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-rivalry",
+   "tabs": [
+    "predator",
+    "alien"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Celtic vs. Grid (Rivalry Reborn 2-pack)",
+   "match": [
+    [
+     "celtic",
+     "grid"
+    ],
+    [
+     "rivalry reborn"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-dutch-linn",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Dutch and Linn (Arcade 2-pack)",
+   "match": [
+    [
+     "dutch",
+     "linn"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-dutch",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator (1987)",
+   "name": "Dutch Schaefer (all versions)",
+   "match": [
+    [
+     "dutch"
+    ],
+    [
+     "schaefer"
+    ],
+    [
+     "schaeffer"
+    ],
+    [
+     "predator",
+     "schwarzenegger"
+    ],
+    [
+     "predator",
+     "arnold"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-city-demon",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "City Demon Predator",
+   "match": [
+    [
+     "city demon"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-jungle-demon",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator (1987)",
+   "name": "Jungle Demon Predator",
+   "match": [
+    [
+     "jungle demon"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-city",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "City Hunter Predator",
+   "match": [
+    [
+     "city hunter"
+    ],
+    [
+     "predator 2",
+     "city"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-alpha",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Alpha Predator (100th Edition)",
+   "match": [
+    [
+     "alpha",
+     "predator"
+    ],
+    [
+     "100th"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-feral",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Prey and Badlands",
+   "name": "Feral Predator (Prey)",
+   "match": [
+    [
+     "feral"
+    ],
+    [
+     "ferel"
+    ],
+    [
+     "camo reveal"
+    ],
+    [
+     "prey",
+     "predator"
+    ],
+    [
+     "prey",
+     "ultimate"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-dek",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Prey and Badlands",
+   "name": "Dek (Badlands)",
+   "match": [
+    [
+     "dek"
+    ]
+   ],
+   "not": [
+    "kwei"
+   ]
+  },
+  {
+   "id": "pred-thia",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Prey and Badlands",
+   "name": "Thia and Bud (Badlands)",
+   "match": [
+    [
+     "thia"
+    ],
+    [
+     "bud",
+     "badlands"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-kwei",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Prey and Badlands",
+   "name": "Kwei (Badlands)",
+   "match": [
+    [
+     "kwei"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-badlands",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Prey and Badlands",
+   "name": "Other Badlands figures",
+   "match": [
+    [
+     "badlands"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-samurai",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Samurai Predator (Hunting Grounds)",
+   "match": [
+    [
+     "samurai"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-concrete",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Concrete Jungle (Stone Heart, Clan Leader)",
+   "match": [
+    [
+     "stone heart"
+    ],
+    [
+     "clan leader"
+    ],
+    [
+     "concrete jungle"
+    ],
+    [
+     "scarface"
+    ]
+   ],
+   "not": [
+    "bone throne",
+    "diorama"
+   ]
+  },
+  {
+   "id": "pred-arcade",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Arcade Predators (Lasershot, Warrior, Hunter)",
+   "match": [
+    [
+     "arcade",
+     "predator"
+    ],
+    [
+     "lasershot"
+    ]
+   ],
+   "not": [
+    "razor claws",
+    "razor claw",
+    "arachnoid",
+    "chrysalis",
+    "alien warrior",
+    "warrior alien"
+   ]
+  },
+  {
+   "id": "pred-ancient",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Ancient Warrior Predator",
+   "match": [
+    [
+     "ancient warrior"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-scar",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Scar Predator",
+   "match": [
+    [
+     "scar"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-celtic",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Celtic Predator",
+   "match": [
+    [
+     "celtic"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-chopper",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Chopper Predator",
+   "match": [
+    [
+     "chopper"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-wolf",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Wolf Predator (AvP Requiem)",
+   "match": [
+    [
+     "wolf"
+    ],
+    [
+     "requiem",
+     "predator"
+    ],
+    [
+     "avpr",
+     "predator"
+    ]
+   ],
+   "not": [
+    "hybrid",
+    "predalien"
+   ]
+  },
+  {
+   "id": "pred-elder",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "Elder Predator (Golden Angel, Greyback, AvP)",
+   "match": [
+    [
+     "elder"
+    ],
+    [
+     "golden angel"
+    ],
+    [
+     "greyback"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-scout",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "Scout Predator",
+   "match": [
+    [
+     "scout",
+     "predator"
+    ]
+   ],
+   "not": [
+    "cinemachines"
+   ]
+  },
+  {
+   "id": "pred-snake",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "Snake Predator",
+   "match": [
+    [
+     "snake",
+     "predator"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-lost",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "Lost Predator",
+   "match": [
+    [
+     "lost",
+     "predator"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-guardian",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "Guardian Predator",
+   "match": [
+    [
+     "guardian",
+     "predator"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-boar",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "Boar Predator",
+   "match": [
+    [
+     "boar"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-stalker",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "Stalker Predator",
+   "match": [
+    [
+     "stalker"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-shaman",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "Shaman Predator",
+   "match": [
+    [
+     "shaman"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-warrior",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "Warrior Predator (Predator 2)",
+   "match": [
+    [
+     "warrior",
+     "predator 2"
+    ],
+    [
+     "ultimate warrior",
+     "predator"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-berserker",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predators (2010) and The Predator (2018)",
+   "name": "Berserker Predator",
+   "match": [
+    [
+     "berserker"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-falconer",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predators (2010) and The Predator (2018)",
+   "name": "Falconer Predator",
+   "match": [
+    [
+     "falconer"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-tracker",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predators (2010) and The Predator (2018)",
+   "name": "Tracker Predator",
+   "match": [
+    [
+     "tracker"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-fugitive",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predators (2010) and The Predator (2018)",
+   "name": "Fugitive Predator (Lab Escape)",
+   "match": [
+    [
+     "fugitive"
+    ],
+    [
+     "lab escape"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-emissary",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predators (2010) and The Predator (2018)",
+   "name": "Emissary Predator",
+   "match": [
+    [
+     "emissary"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-assassin",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predators (2010) and The Predator (2018)",
+   "name": "Assassin Predator (Deluxe)",
+   "match": [
+    [
+     "assassin"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-badblood",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predators (2010) and The Predator (2018)",
+   "name": "Bad Blood vs. Enforcer 2-pack",
+   "match": [
+    [
+     "bad blood"
+    ],
+    [
+     "enforcer"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-ahab",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Ahab Predator",
+   "match": [
+    [
+     "ahab"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-tusk",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Cracked Tusk Predator",
+   "match": [
+    [
+     "cracked tusk"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-spiked",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Spiked Tail Predator",
+   "match": [
+    [
+     "spiked tail"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-temple",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Temple Guard Predator",
+   "match": [
+    [
+     "temple guard"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-serpent",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Serpent Hunter Predator",
+   "match": [
+    [
+     "serpent hunter"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-youngblood",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Youngblood Predator",
+   "match": [
+    [
+     "youngblood"
+    ],
+    [
+     "young blood"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-machiko",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Machiko Noguchi",
+   "match": [
+    [
+     "machiko"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-lasershot",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Lasershot Predator (Kenner Tribute)",
+   "match": [
+    [
+     "laser shot"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-renegade",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Renegade Predator",
+   "match": [
+    [
+     "renegade"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-hivewars",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Hive Wars Predator",
+   "match": [
+    [
+     "hive wars"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-lava",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Lava Planet Predator",
+   "match": [
+    [
+     "lava planet"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-water",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Water Emergence Predator",
+   "match": [
+    [
+     "water emergence"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-ghost",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Ghost Predator",
+   "match": [
+    [
+     "ghost",
+     "predator"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-albino",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Albino Predator",
+   "match": [
+    [
+     "albino",
+     "predator"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-viper",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Viper Predator",
+   "match": [
+    [
+     "viper"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-wasp",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Wasp Predator",
+   "match": [
+    [
+     "wasp"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-ambush",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Ambush Predator",
+   "match": [
+    [
+     "ambush"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-8bit",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Predator (8-bit video game)",
+   "match": [
+    [
+     "predator",
+     "8 bit"
+    ],
+    [
+     "predator",
+     "video game"
+    ],
+    [
+     "predator",
+     "nes"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-avp2pack",
+   "tabs": [
+    "predator",
+    "alien"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Alien vs. Predator 2-packs (Toys R Us)",
+   "match": [
+    [
+     "vs predator",
+     "2 pack"
+    ],
+    [
+     "vs predator",
+     "two pack"
+    ],
+    [
+     "vs predator",
+     "toys r us"
+    ],
+    [
+     "vs predator",
+     "tru"
+    ],
+    [
+     "ultimate battle",
+     "vs predator"
+    ],
+    [
+     "ultimate battle",
+     "2 pack"
+    ]
+   ],
+   "not": [
+    "battle damaged",
+    "battle damage"
+   ]
+  },
+  {
+   "id": "pred-jungle",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator (1987)",
+   "name": "Jungle Hunter Predator (all versions)",
+   "match": [
+    [
+     "jungle"
+    ],
+    [
+     "thermal vision"
+    ],
+    [
+     "predator",
+     "1987"
+    ],
+    [
+     "classic predator"
+    ],
+    [
+     "unmasked",
+     "predator"
+    ],
+    [
+     "predator",
+     "30th"
+    ]
+   ],
+   "not": [
+    "predator 2",
+    "warrior alien",
+    "alien warrior"
+   ]
+  },
+  {
+   "id": "alien-earth",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Prometheus, Covenant, Romulus and Earth",
+   "name": "Alien: Earth figures",
+   "match": [
+    [
+     "alien earth"
+    ],
+    [
+     "wendy"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-romulus",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Prometheus, Covenant, Romulus and Earth",
+   "name": "Alien: Romulus Xenomorph (all versions)",
+   "match": [
+    [
+     "romulus"
+    ],
+    [
+     "xx121"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-neomorph",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Prometheus, Covenant, Romulus and Earth",
+   "name": "Neomorph",
+   "match": [
+    [
+     "neomorph"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-covenant",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Prometheus, Covenant, Romulus and Earth",
+   "name": "Alien: Covenant Xenomorph",
+   "match": [
+    [
+     "covenant"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-prometheus",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Prometheus, Covenant, Romulus and Earth",
+   "name": "Prometheus (Engineer, David, Fifield and more)",
+   "match": [
+    [
+     "prometheus"
+    ],
+    [
+     "engineer"
+    ],
+    [
+     "fifield"
+    ],
+    [
+     "deacon"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-isolation",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien 3, Resurrection and Isolation",
+   "name": "Alien: Isolation (Amanda Ripley and more)",
+   "match": [
+    [
+     "isolation"
+    ],
+    [
+     "amanda"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-fireteam",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Video games",
+   "name": "Fireteam Elite aliens (Burster, Spitter, Runner, Prowler)",
+   "match": [
+    [
+     "fireteam"
+    ],
+    [
+     "fire team"
+    ],
+    [
+     "prowler"
+    ],
+    [
+     "spitter"
+    ],
+    [
+     "burster"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-resurrection",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien 3, Resurrection and Isolation",
+   "name": "Alien Resurrection (Ripley 8, Warrior)",
+   "match": [
+    [
+     "resurrection"
+    ],
+    [
+     "ripley 8"
+    ],
+    [
+     "newborn"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-3",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien 3, Resurrection and Isolation",
+   "name": "Alien 3 (Dog Alien, Ripley and more)",
+   "match": [
+    [
+     "alien 3"
+    ],
+    [
+     "alien3"
+    ],
+    [
+     "dog alien"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-genocide",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Video games",
+   "name": "Genocide (red Xenomorphs, Red Queen)",
+   "match": [
+    [
+     "genocide"
+    ],
+    [
+     "red queen"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-hybrid",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Predalien (AvP Requiem Hybrid)",
+   "match": [
+    [
+     "predalien"
+    ],
+    [
+     "hybrid",
+     "requiem"
+    ],
+    [
+     "hybrid",
+     "avpr"
+    ],
+    [
+     "hybrid",
+     "avp"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-thermal",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Thermal Vision Warrior Alien (glow in the dark)",
+   "match": [
+    [
+     "thermal vision",
+     "alien",
+     "warrior"
+    ],
+    [
+     "thermal vision",
+     "warrior alien"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-razor",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Razor Claws Alien",
+   "match": [
+    [
+     "razor claw"
+    ],
+    [
+     "razor claws"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-arachnoid",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Arachnoid Alien",
+   "match": [
+    [
+     "arachnoid"
+    ],
+    [
+     "arachinoid"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-chrysalis",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Chrysalis Alien",
+   "match": [
+    [
+     "chrysalis"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-grid",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Grid Alien",
+   "match": [
+    [
+     "grid"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-panther",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Kenner Tribute creatures",
+   "name": "Panther Alien",
+   "match": [
+    [
+     "panther",
+     "alien"
+    ],
+    [
+     "panther",
+     "aliens"
+    ],
+    [
+     "panther",
+     "kenner"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-cougar",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Kenner Tribute creatures",
+   "name": "Night Cougar Alien",
+   "match": [
+    [
+     "night cougar"
+    ],
+    [
+     "cougar",
+     "alien"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-rhino",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Kenner Tribute creatures",
+   "name": "Rhino Alien",
+   "match": [
+    [
+     "rhino"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-gorilla",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Kenner Tribute creatures",
+   "name": "Gorilla Alien",
+   "match": [
+    [
+     "gorilla"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-snake",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Kenner Tribute creatures",
+   "name": "Snake Alien",
+   "match": [
+    [
+     "snake alien"
+    ],
+    [
+     "snake",
+     "kenner"
+    ]
+   ],
+   "not": [
+    "predator"
+   ]
+  },
+  {
+   "id": "alien-scorpion",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Kenner Tribute creatures",
+   "name": "Scorpion Alien",
+   "match": [
+    [
+     "scorpion"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-mantis",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Kenner Tribute creatures",
+   "name": "Mantis Alien",
+   "match": [
+    [
+     "mantis"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-qfh",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Kenner Tribute creatures",
+   "name": "Queen Facehugger",
+   "match": [
+    [
+     "queen facehugger"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-bull",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Kenner Tribute creatures",
+   "name": "Bull Alien",
+   "match": [
+    [
+     "bull alien"
+    ],
+    [
+     "bull",
+     "kenner"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-crab",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Kenner Tribute creatures",
+   "name": "Crab Alien",
+   "match": [
+    [
+     "crab",
+     "alien"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-ripley-newt",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Ripley and Newt (2-pack)",
+   "match": [
+    [
+     "ripley",
+     "newt"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-ripley",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Ellen Ripley (all versions)",
+   "match": [
+    [
+     "ripley"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-newt",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Newt",
+   "match": [
+    [
+     "newt"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-hicks",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Corporal Hicks",
+   "match": [
+    [
+     "hicks"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-hudson",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Private Hudson",
+   "match": [
+    [
+     "hudson"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-vasquez",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Private Vasquez",
+   "match": [
+    [
+     "vasquez"
+    ],
+    [
+     "vasques"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-apone",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Sergeant Apone",
+   "match": [
+    [
+     "apone"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-drake",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Private Drake",
+   "match": [
+    [
+     "drake"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-gorman",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Lieutenant Gorman",
+   "match": [
+    [
+     "gorman"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-frost",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Private Frost",
+   "match": [
+    [
+     "frost"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-bishop",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Bishop",
+   "match": [
+    [
+     "bishop"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-burke",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Burke",
+   "match": [
+    [
+     "burke"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-windrix",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Sergeant Windrix",
+   "match": [
+    [
+     "windrix"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-cameron",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Colonel Cameron (director tribute)",
+   "match": [
+    [
+     "cameron"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-creaturepack",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Creature Pack (30th Anniversary)",
+   "match": [
+    [
+     "creature pack"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-queen",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Alien Queen",
+   "match": [
+    [
+     "queen"
+    ]
+   ],
+   "not": [
+    "facehugger"
+   ]
+  },
+  {
+   "id": "alien-loader",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Power Loader",
+   "match": [
+    [
+     "power loader"
+    ],
+    [
+     "p 5000"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-albino",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Kenner Tribute creatures",
+   "name": "Albino Drone Alien",
+   "match": [
+    [
+     "albino"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-kane",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien (1979)",
+   "name": "Kane",
+   "match": [
+    [
+     "kane"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-dallas",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien (1979)",
+   "name": "Dallas",
+   "match": [
+    [
+     "dallas"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-lambert",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien (1979)",
+   "name": "Lambert",
+   "match": [
+    [
+     "lambert"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-ash",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien (1979)",
+   "name": "Ash",
+   "match": [
+    [
+     "ash"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-parker",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien (1979)",
+   "name": "Parker",
+   "match": [
+    [
+     "parker"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-brett",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien (1979)",
+   "name": "Brett",
+   "match": [
+    [
+     "brett"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-bigchap",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien (1979)",
+   "name": "Big Chap Xenomorph (Alien 1979)",
+   "match": [
+    [
+     "big chap"
+    ],
+    [
+     "alien",
+     "40th"
+    ],
+    [
+     "alien",
+     "1979"
+    ],
+    [
+     "alien",
+     "35th"
+    ],
+    [
+     "xenomorph",
+     "35th"
+    ],
+    [
+     "51646"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-warrior",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Xenomorph Warrior (Aliens, blue and brown)",
+   "match": [
+    [
+     "aliens",
+     "ultimate edition"
+    ],
+    [
+     "aliens",
+     "warrior"
+    ],
+    [
+     "aliens",
+     "xenomorph"
+    ],
+    [
+     "alien",
+     "warrior"
+    ],
+    [
+     "aliens",
+     "40th"
+    ],
+    [
+     "aliens",
+     "1986"
+    ],
+    [
+     "blue",
+     "warrior"
+    ],
+    [
+     "brown",
+     "warrior"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-other",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Everything else",
+   "name": "Other Alien figures",
+   "match": [],
+   "not": [],
+   "other": true
+  },
+  {
+   "id": "predator-other",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Everything else",
+   "name": "Other Predator figures",
+   "match": [],
+   "not": [],
+   "other": true
+  },
+  {
+   "id": "robocop-other",
+   "tabs": [
+    "robocop"
+   ],
+   "section": "Everything else",
+   "name": "Other RoboCop figures",
+   "match": [],
+   "not": [],
+   "other": true
+  },
+  {
+   "id": "terminator-other",
+   "tabs": [
+    "terminator"
+   ],
+   "section": "Everything else",
+   "name": "Other Terminator figures",
+   "match": [],
+   "not": [],
+   "other": true
+  },
+  {
+   "id": "thing-other",
+   "tabs": [
+    "thing"
+   ],
+   "section": "Everything else",
+   "name": "Other The Thing figures",
+   "match": [],
+   "not": [],
+   "other": true
+  },
+  {
+   "id": "efny-other",
+   "tabs": [
+    "efny"
+   ],
+   "section": "Everything else",
+   "name": "Other Escape From New York figures",
+   "match": [],
+   "not": [],
+   "other": true
+  }
+ ],
+ "tab_words": [
+  {
+   "tab": "efny",
+   "match": [
+    [
+     "plissken"
+    ],
+    [
+     "escape from new york"
+    ],
+    [
+     "escape from ny"
+    ]
+   ]
+  },
+  {
+   "tab": "thing",
+   "match": [
+    [
+     "macready"
+    ],
+    [
+     "outpost 31"
+    ],
+    [
+     "the thing",
+     "carpenter"
+    ],
+    [
+     "the thing",
+     "1982"
+    ],
+    [
+     "the thing",
+     "ultimate"
+    ],
+    [
+     "the thing",
+     "alien"
+    ],
+    [
+     "the thing",
+     "poster"
+    ],
+    [
+     "the thing",
+     "lenticular"
+    ],
+    [
+     "the thing",
+     "sdcc"
+    ],
+    [
+     "the thing",
+     "40th"
+    ],
+    [
+     "the thing",
+     "light up"
+    ],
+    [
+     "dog creature"
+    ]
+   ]
+  },
+  {
+   "tab": "robocop",
+   "match": [
+    [
+     "robocop"
+    ],
+    [
+     "ed 209"
+    ],
+    [
+     "ocp"
+    ],
+    [
+     "endocop"
+    ]
+   ]
+  },
+  {
+   "tab": "terminator",
+   "match": [
+    [
+     "terminator"
+    ],
+    [
+     "t 800"
+    ],
+    [
+     "t 1000"
+    ],
+    [
+     "endoskeleton"
+    ],
+    [
+     "skynet"
+    ],
+    [
+     "judgment day"
+    ],
+    [
+     "dark fate"
+    ],
+    [
+     "genisys"
+    ]
+   ]
+  },
+  {
+   "tab": "predator",
+   "match": [
+    [
+     "predator"
+    ],
+    [
+     "predators"
+    ],
+    [
+     "yautja"
+    ],
+    [
+     "prey"
+    ],
+    [
+     "badlands"
+    ],
+    [
+     "avp"
+    ],
+    [
+     "avpr"
+    ],
+    [
+     "hunting grounds"
+    ],
+    [
+     "concrete jungle"
+    ],
+    [
+     "dek"
+    ],
+    [
+     "feral"
+    ]
+   ]
+  },
+  {
+   "tab": "alien",
+   "match": [
+    [
+     "alien"
+    ],
+    [
+     "aliens"
+    ],
+    [
+     "xenomorph"
+    ],
+    [
+     "prometheus"
+    ],
+    [
+     "covenant"
+    ],
+    [
+     "romulus"
+    ],
+    [
+     "facehugger"
+    ],
+    [
+     "chestburster"
+    ],
+    [
+     "nostromo"
+    ],
+    [
+     "ripley"
+    ],
+    [
+     "space marine"
+    ],
+    [
+     "colonial marine"
+    ]
+   ]
+  }
+ ]
+}

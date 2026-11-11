@@ -31,6 +31,7 @@ SETTINGS_FILE = ROOT / "updater" / "settings.json"
 HEARTBEAT_FILE = ROOT / "updater" / "last-run-day.txt"
 SHIPPING_FILE = ROOT / "updater" / "shipping-cache.json"
 IMAGES_FILE = ROOT / "updater" / "figure-images.json"
+PHOTOS_FILE = ROOT / "updater" / "listing-photos.json"
 
 TOKEN_URL = "https://api.ebay.com/identity/v1/oauth2/token"
 SEARCH_URL = "https://api.ebay.com/buy/browse/v1/item_summary/search"
@@ -553,6 +554,30 @@ def update_images(new_pictures):
     return cache
 
 
+def update_photos(by_fig, catalog):
+    """Every figure keeps a photo even when nothing is for sale: the first listing photo seen
+    for it is remembered in updater/listing-photos.json (official NECA pictures still win)."""
+    try:
+        cache = json.loads(PHOTOS_FILE.read_text(encoding="utf-8"))
+        if not isinstance(cache, dict):
+            cache = {}
+    except (OSError, ValueError):
+        cache = {}
+    changed = False
+    for fid, listings in by_fig.items():
+        fig = catalog["by_id"].get(fid)
+        if not fig or fig.get("other") or fid in cache:
+            continue
+        for l in listings:
+            if safe_url(l.get("image")):
+                cache[fid] = l["image"]
+                changed = True
+                break
+    if changed:
+        PHOTOS_FILE.write_text(json.dumps(cache, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+    return cache
+
+
 # ===== exact shipping for listings with calculated shipping =====
 
 def load_shipping_cache():
@@ -632,7 +657,7 @@ def now_iso():
 SHIP_TO_ZIP = os.environ.get("SHIP_TO_ZIP", "").strip()
 
 
-def write_output(status, by_fig, settings, message="", images=None, store_ok=None):
+def write_output(status, by_fig, settings, message="", images=None, store_ok=None, photos=None):
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "updated": now_iso(),
@@ -647,6 +672,7 @@ def write_output(status, by_fig, settings, message="", images=None, store_ok=Non
             "neca_store": bool(settings.get("show_neca_store", True)),
         },
         "images": images or {},
+        "photos": photos or {},
         "figures": {fid: {"listings": ls} for fid, ls in (by_fig or {}).items() if ls},
     }
     tmp = OUT_FILE.with_suffix(".tmp")
@@ -671,7 +697,7 @@ def run(client_id, client_secret, session=None, sleep=time.sleep, store_session=
 
     if not client_id or not client_secret:
         print("No eBay keys found yet. Add EBAY_CLIENT_ID and EBAY_CLIENT_SECRET as GitHub secrets.")
-        write_output("needs_keys", by_fig, settings, "eBay keys have not been added yet.", images, store_ok)
+        write_output("needs_keys", by_fig, settings, "eBay keys have not been added yet.", images, store_ok, update_photos(by_fig, catalog))
         return 0
 
     ebay = Ebay(client_id, client_secret, session=session, sleep=sleep, zip_code=SHIP_TO_ZIP)
@@ -679,7 +705,7 @@ def run(client_id, client_secret, session=None, sleep=time.sleep, store_session=
         ebay.refresh_token()
     except AuthError as e:
         print(f"PROBLEM: {e}")
-        write_output("bad_keys", by_fig, settings, "eBay did not accept the keys.", images, store_ok)
+        write_output("bad_keys", by_fig, settings, "eBay did not accept the keys.", images, store_ok, update_photos(by_fig, catalog))
         return 0
     except TemporaryError as e:
         print(f"eBay is having trouble right now, keeping the last good results online. Details: {e}")
@@ -689,7 +715,7 @@ def run(client_id, client_secret, session=None, sleep=time.sleep, store_session=
         ebay_by_fig, worked = fetch_all(ebay, catalog, settings)
     except AuthError as e:
         print(f"PROBLEM: {e}")
-        write_output("bad_keys", by_fig, settings, "eBay did not accept the keys.", images, store_ok)
+        write_output("bad_keys", by_fig, settings, "eBay did not accept the keys.", images, store_ok, update_photos(by_fig, catalog))
         return 0
 
     if worked == 0:
@@ -710,7 +736,7 @@ def run(client_id, client_secret, session=None, sleep=time.sleep, store_session=
     for f in catalog["figures"]:
         if by_fig[f["id"]]:
             print(f"{f['name']}: {len(by_fig[f['id']])} listing(s)")
-    write_output("ok", by_fig, settings, images=images, store_ok=store_ok)
+    write_output("ok", by_fig, settings, images=images, store_ok=store_ok, photos=update_photos(by_fig, catalog))
     print(f"Done. {total} listing(s) across {sum(1 for l in by_fig.values() if l)} figures. eBay calls used this update: {ebay.calls}.")
     return 0
 

@@ -1,0 +1,63 @@
+name: Update NECA listings
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Get the files
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install helper library
+        run: pip install requests==2.32.3
+
+      - name: Check eBay and the NECA store for sealed figures
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+          SHIP_TO_ZIP: ${{ vars.SHIP_TO_ZIP }}
+        run: python updater/update.py
+
+      - name: Keep the hourly schedule switched on and save pictures
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add updater/last-run-day.txt updater/figure-images.json updater/shipping-cache.json
+          git commit -m "Save figure pictures and shipping prices" || echo "Nothing new to save"
+          git push || echo "Skipped save this time"
+
+      - name: Prepare website
+        uses: actions/configure-pages@v5
+
+      - name: Package website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v4

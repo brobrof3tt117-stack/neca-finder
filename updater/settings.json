@@ -1,0 +1,63 @@
+{
+  "_read_me": "You can change the numbers and word lists below right on GitHub. Click the pencil icon, edit, then click Commit changes. The next hourly update uses the new settings.",
+
+  "min_seller_positive_percent": 95,
+  "min_seller_ratings": 50,
+
+  "show_buy_it_now": true,
+  "show_auctions": true,
+  "us_sellers_only": true,
+
+  "_neca_store_help": "Also show figures that are in stock or on pre-order at the official NECA store (store.necaonline.com).",
+  "show_neca_store": true,
+
+  "_shipping_help": "Only used if a SHIP_TO_ZIP variable is set on GitHub. Listings with calculated shipping are looked up to get the real price to that ZIP. Each listing is looked up once and remembered.",
+  "max_shipping_lookups_per_update": 250,
+
+  "_must_have_help": "A title must contain at least one of these, so other brands (Hasbro, McFarlane, Hot Toys and so on) never show up. Reel Toys is NECA's own label.",
+  "must_have_words": ["neca", "reel toys", "reel"],
+
+  "_hide_words_help": "Any listing whose title contains one of these words or phrases is hidden. They usually mean the figure is opened, used, loose, fake, a bundle, or not a figure at all.",
+  "hide_words": [
+    "used", "pre owned", "preowned", "opened", "open box", "box opened", "opened box", "unboxed", "out of box", "oob",
+    "loose", "no box", "without box", "box only", "empty box", "no packaging", "displayed", "incomplete", "missing",
+    "figure only", "figures only", "no accessories", "parts", "for parts", "spares", "repair", "broken",
+    "lot", "lots", "bundle", "job lot", "set of", "x2", "x3", "2x", "3x", "pcs", "bulk", "combo", "sold individually", "pieces only", "piece only", "u pick", "you pick", "pick one", "pick your", "choose", "your choice",
+    "custom", "3d print", "3d printed", "printed", "kitbash", "repaint", "fan made", "replica", "prop", "knockoff", "knock off",
+    "bootleg", "fake", "repro", "reproduction", "not neca", "compatible", "inspired",
+    "mask only", "mask for", "masks", "head only", "head sculpt", "headsculpt", "heads only", "hands only", "weapon only", "weapons only",
+    "accessory pack", "accessory set", "accessories only", "accessory only", "egg", "eggs", "diorama", "bone throne", "display base", "display case", "stand only",
+    "head knocker", "head knockers", "headknocker", "headknockers", "body knocker", "body knockers", "knocker", "knockers", "bobble", "bobblehead",
+    "plush", "kidrobot", "hugme", "cinemachines", "die cast", "diecast", "toony terrors", "scalers", "keychain", "magnet", "pin", "patch",
+    "glassware", "mug", "shirt", "costume", "ben cooper", "statue", "bust", "model kit", "life size", "1 1",
+    "funko", "funko pop", "hiya", "mcfarlane", "hot toys", "mezco", "sideshow", "hasbro", "jada", "super7", "mego", "playmates", "iron studios", "hcmf",
+    "smg", "g i joe", "marvel legends", "spines", "pillar", "hitchhiker", "simpsons", "foam", "kwaltz", "e t", "they live", "alf", "melmac", "addams", "wednesday", "batman", "freddy", "jason", "gremlins", "tmnt", "pennywise", "chucky"
+  ],
+
+  "_maybe_hide_words_help": "These words often mean a loose figure, so the listing is hidden UNLESS the title also says sealed, NIB, MISB, MOC or new in box.",
+  "maybe_hide_words": ["complete", "never removed"],
+  "sealed_words": [
+    "sealed", "factory sealed", "nisb", "misb", "nib", "mib", "moc", "mip", "nip", "nrfb", "new in box", "new in package",
+    "brand new", "unopened", "never opened"
+  ],
+
+  "_hide_pairs_help": "A title is hidden when it has BOTH words of any pair. These catch sellers' bundles of two different figures.",
+  "hide_pairs": [
+    ["outpost", "last stand"], ["outpost", "station survival"], ["last stand", "station survival"],
+    ["predator", "terminator"], ["predator", "robocop"], ["alien", "robocop"], ["predator", "macready"], ["alien", "terminator"]
+  ],
+
+  "_box_warning_help": "Listings that mention these words still show up (the figure is still sealed) but get a yellow 'box damage mentioned' tag.",
+  "box_warning_words": [
+    "damaged", "damage", "dmg", "dmgd", "crushed", "dented", "dent", "dents", "torn", "tear", "tears", "creased", "crease", "creases",
+    "worn", "wear", "shelf wear", "box wear", "imperfect", "bad box", "rough box", "damaged tab", "bent tab", "not mint", "minor flaw", "flaw"
+  ],
+
+  "_ok_phrases_help": "These phrases are ignored before checking the lists above, so 'never opened' does not count as 'opened' and 'battle damaged' (a figure version) does not count as box damage.",
+  "ok_phrases": [
+    "never opened", "never been opened", "not opened", "not been opened", "unopened",
+    "never used", "not used", "never displayed", "not displayed",
+    "battle damaged", "battle damage", "battle damaged version", "led mask", "light up mask",
+    "egg sac"
+  ]
+}

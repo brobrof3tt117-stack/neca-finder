@@ -107,6 +107,13 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .facts span { display: block; font-size: 13px; color: var(--muted); }
 .facts b { font-size: 17px; }
 .note { color: var(--muted); max-width: 60ch; }
+.elsewhere { margin: 16px 0 0; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+.elsewhere span { color: var(--muted); font-size: 14px; max-width: 52ch; }
+.amazon {
+  display: inline-block; padding: 9px 15px; font-weight: 700; text-decoration: none; border-radius: var(--radius);
+  color: var(--ink); border: 2px solid var(--accent); background: transparent;
+}
+.amazon:hover { background: var(--accent); color: var(--accent-ink); }
 
 .filters { display: flex; flex-wrap: wrap; gap: 12px 22px; align-items: center; margin-bottom: 12px; }
 .seg { display: inline-flex; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }

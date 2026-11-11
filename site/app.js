@@ -107,7 +107,8 @@
     if (store) image = safeUrl(store.image);
     for (var i = 0; i < items.length && !image; i += 1) image = safeUrl(items[i].image);
     var official = safeUrl(data.images[fig.id]);
-    return { items: items, lowest: lowest, store: store, image: official || image };
+    var remembered = safeUrl(data.photos[fig.id]);
+    return { items: items, lowest: lowest, store: store, image: official || image || remembered };
   }
 
   function showStatus(data, forSale, count) {
@@ -225,6 +226,8 @@
     el("figHero").innerHTML =
       '<div class="thumb big" data-label="' + esc(initials(fig.name)) + '">' + thumbHtml(sum.image, fig.name, initials(fig.name)) + "</div>" +
       "<div><h1>" + esc(fig.name) + '</h1><ul class="facts">' + facts + "</ul>" +
+      (fig.other ? "" : '<p class="elsewhere"><a class="amazon" href="' + esc(amazonUrl(fig, tab)) + '" target="_blank" rel="noopener noreferrer">Check Amazon for this figure</a>' +
+        '<span>Opens an Amazon search. Look for "Ships from and sold by Amazon" or NECA\'s own store, and check the seller rating there.</span></p>') +
       (fig.other ? '<p class="note">These listings passed every check but did not match a named figure, so they are grouped here. Read titles closely.</p>' : "") +
       "</div>";
 
@@ -292,6 +295,15 @@
     draw();
   }
 
+  /* Amazon has no free listings feed, so each figure links to an Amazon search for it instead */
+  function amazonUrl(fig, tab) {
+    var name = fig.name.replace(/\((all versions|version not in title)\)/gi, "").replace(/\band more\b|\bgame figures\b|\bfigures\b/gi, "").replace(/[(),:]/g, " ");
+    var words = name.toLowerCase();
+    var line = { alien: "Alien", predator: "Predator", robocop: "RoboCop", terminator: "Terminator", thing: "The Thing", efny: "Escape From New York" }[tab.id] || "";
+    if (line && words.indexOf(line.toLowerCase().split(" ").pop()) === -1) name = line + " " + name;
+    return "https://www.amazon.com/s?k=" + encodeURIComponent(("NECA " + name).replace(/\s+/g, " ").trim()) + "&i=toys-and-games";
+  }
+
   function itemHtml(it, fig) {
     var tags = [];
     var isStore = it.source === "neca";
@@ -347,6 +359,7 @@
       var catalog = res[0], data = res[1];
       data.figures = data.figures || {};
       data.images = data.images || {};
+      data.photos = data.photos || {};
       if (document.body.getAttribute("data-page") === "figure") renderFigure(catalog, data);
       else renderHome(catalog, data);
     })

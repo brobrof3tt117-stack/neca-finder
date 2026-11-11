@@ -69,10 +69,12 @@
       .map(function (w) { return w.charAt(0); }).join("").toUpperCase();
   }
 
-  function thumbHtml(url, alt, label) {
+  function thumbHtml(url, alt, label, fallback) {
     var safe = safeUrl(url);
+    var back = safeUrl(fallback);
     return safe
-      ? '<img src="' + esc(safe) + '" alt="' + esc(alt) + '" loading="lazy" referrerpolicy="no-referrer">'
+      ? '<img src="' + esc(safe) + '"' + (back && back !== safe ? ' data-fallback="' + esc(back) + '"' : "") +
+        ' alt="' + esc(alt) + '" loading="lazy" referrerpolicy="no-referrer">'
       : '<span class="ph">' + esc(label) + "</span>";
   }
 
@@ -108,7 +110,9 @@
     for (var i = 0; i < items.length && !image; i += 1) image = safeUrl(items[i].image);
     var official = safeUrl(data.images[fig.id]);
     var remembered = safeUrl(data.photos[fig.id]);
-    return { items: items, lowest: lowest, store: store, image: official || image || remembered };
+    var best = official || image || remembered;
+    var backup = [image, remembered].filter(function (u) { return u && u !== best; })[0] || "";
+    return { items: items, lowest: lowest, store: store, image: best, backup: backup };
   }
 
   function showStatus(data, forSale, count) {
@@ -192,7 +196,7 @@
       : '<span class="sale">' + sum.items.length + " for sale, from " + dollars(sum.lowest) + "</span>";
     var badge = sum.store ? '<span class="badge">' + (sum.store.preorder ? "Pre-order at NECA" : "In stock at NECA") + "</span>" : "";
     return '<a class="tile' + (sum.items.length ? "" : " empty-tile") + '" href="figure.html?f=' + encodeURIComponent(f.id) + "&tab=" + encodeURIComponent(tab.id) + '">' +
-      '<div class="thumb" data-label="' + esc(initials(f.name)) + '">' + thumbHtml(sum.image, f.name, initials(f.name)) + badge + "</div>" +
+      '<div class="thumb" data-label="' + esc(initials(f.name)) + '">' + thumbHtml(sum.image, f.name, initials(f.name), sum.backup) + badge + "</div>" +
       '<div class="body"><h3>' + esc(f.name) + "</h3>" + sale + "</div></a>";
   }
 
@@ -224,7 +228,7 @@
       (sum.lowest !== null ? "<li><span>Lowest total</span><b>" + dollars(sum.lowest) + "</b></li>" : "") +
       (sum.store ? "<li><span>NECA store</span><b>" + (sum.store.preorder ? "Pre-order " : "In stock ") + dollars(sum.store.price) + "</b></li>" : "");
     el("figHero").innerHTML =
-      '<div class="thumb big" data-label="' + esc(initials(fig.name)) + '">' + thumbHtml(sum.image, fig.name, initials(fig.name)) + "</div>" +
+      '<div class="thumb big" data-label="' + esc(initials(fig.name)) + '">' + thumbHtml(sum.image, fig.name, initials(fig.name), sum.backup) + "</div>" +
       "<div><h1>" + esc(fig.name) + '</h1><ul class="facts">' + facts + "</ul>" +
       (fig.other ? "" : '<p class="elsewhere"><a class="amazon" href="' + esc(amazonUrl(fig, tab)) + '" target="_blank" rel="noopener noreferrer">Check Amazon for this figure</a>' +
         '<span>Opens an Amazon search. Look for "Ships from and sold by Amazon" or NECA\'s own store, and check the seller rating there.</span></p>') +
@@ -343,6 +347,12 @@
   /* If a photo cannot load, show the figure's initials instead of a broken image */
   document.addEventListener("error", function (e) {
     var img = e.target;
+    if (img && img.tagName === "IMG" && img.getAttribute("data-fallback")) {
+      var next = img.getAttribute("data-fallback");
+      img.removeAttribute("data-fallback");
+      img.src = next;
+      return;
+    }
     if (img && img.tagName === "IMG" && img.parentNode && img.parentNode.classList.contains("thumb")) {
       var box = img.parentNode;
       var label = document.createElement("span");

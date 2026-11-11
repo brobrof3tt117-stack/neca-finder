@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>NECA Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Barlow+Condensed:wght@500;700&family=Big+Shoulders+Display:wght@700;900&family=IBM+Plex+Sans+Condensed:wght@400;600&family=Libre+Franklin:wght@400;600;700&family=Michroma&family=Saira+Stencil+One&family=Share+Tech+Mono&family=Special+Elite&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body data-page="figure" data-theme="alien">
+<nav class="tabs" id="tabs" aria-label="Figure lines"></nav>
+<main class="wrap">
+  <a class="back" id="back" href="index.html">Back to all figures</a>
+  <div id="banner"></div>
+  <section class="fig-hero" id="figHero"></section>
+  <div class="filters" id="filters" hidden>
+    <div class="seg" role="group" aria-label="Where it is sold">
+      <button type="button" data-show="all" aria-pressed="true">All</button>
+      <button type="button" data-show="Buy It Now" aria-pressed="false">Buy It Now</button>
+      <button type="button" data-show="Auction" aria-pressed="false">Auctions</button>
+      <button type="button" data-show="NECA Store" aria-pressed="false">NECA store</button>
+    </div>
+    <label class="sortlabel">Sort by
+      <select class="sort" id="sort">
+        <option value="low">Lowest total price</option>
+        <option value="high">Highest total price</option>
+        <option value="ending">Auctions ending soonest</option>
+        <option value="newest">Newest listings</option>
+      </select>
+    </label>
+  </div>
+  <div class="chips" id="chips" role="group" aria-label="Figure version"></div>
+  <p class="status small" id="updated">Loading listings...</p>
+  <div class="list" id="list"></div>
+</main>
+<footer class="wrap foot" id="foot"></footer>
+<script src="app.js?v=1"></script>
+</body>
+</html>

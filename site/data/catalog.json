@@ -157,7 +157,8 @@
     "fantastic four",
     "marvel",
     "robocop",
-    "predator"
+    "predator",
+    "macready"
    ]
   },
   {
@@ -189,6 +190,9 @@
     ],
     [
      "form changing"
+    ],
+    [
+     "alien terr0r"
     ]
    ],
    "not": [
@@ -197,7 +201,8 @@
     "fantastic four",
     "marvel",
     "robocop",
-    "predator"
+    "predator",
+    "macready"
    ]
   },
   {
@@ -4910,7 +4915,10 @@
      "ripley8"
     ]
    ],
-   "not": []
+   "not": [
+    "commando",
+    "alien 3"
+   ]
   },
   {
    "id": "alien-res-newborn",
@@ -4924,7 +4932,10 @@
      "newborn"
     ]
    ],
-   "not": []
+   "not": [
+    "commando",
+    "alien 3"
+   ]
   },
   {
    "id": "alien-res-queen",
@@ -4939,7 +4950,10 @@
      "queen"
     ]
    ],
-   "not": []
+   "not": [
+    "commando",
+    "alien 3"
+   ]
   },
   {
    "id": "alien-res-warrior",
@@ -4958,7 +4972,10 @@
      "xenomorph"
     ]
    ],
-   "not": []
+   "not": [
+    "commando",
+    "alien 3"
+   ]
   },
   {
    "id": "alien-resurrection",
@@ -4978,7 +4995,10 @@
      "newborn"
     ]
    ],
-   "not": []
+   "not": [
+    "commando",
+    "alien 3"
+   ]
   },
   {
    "id": "alien-commando",
@@ -6935,6 +6955,9 @@
     ],
     [
      "51683"
+    ],
+    [
+     "nec0nc51683"
     ]
    ],
    "not": [

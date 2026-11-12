@@ -123,12 +123,50 @@
    ]
   },
   {
+   "id": "thing-poster-sdcc",
+   "tabs": [
+    "thing"
+   ],
+   "section": "The Thing (1982)",
+   "name": "The Thing Poster Figure (SDCC 2022, lenticular)",
+   "match": [
+    [
+     "the thing",
+     "sdcc"
+    ],
+    [
+     "the thing",
+     "lenticular"
+    ],
+    [
+     "the thing",
+     "40th"
+    ],
+    [
+     "the thing",
+     "comic con"
+    ],
+    [
+     "the thing",
+     "con exclusive"
+    ]
+   ],
+   "not": [
+    "addams",
+    "wednesday",
+    "fantastic four",
+    "marvel",
+    "robocop",
+    "predator"
+   ]
+  },
+  {
    "id": "thing-poster",
    "tabs": [
     "thing"
    ],
    "section": "The Thing (1982)",
-   "name": "The Thing (Poster Series, light up)",
+   "name": "The Thing (Poster Series, light up, 2025 reissue or year not in title)",
    "match": [
     [
      "the thing",
@@ -819,6 +857,49 @@
    "not": []
   },
   {
+   "id": "term-t800-video",
+   "tabs": [
+    "terminator"
+   ],
+   "section": "Video games",
+   "name": "T-800 (8-bit video game)",
+   "match": [
+    [
+     "t 800",
+     "video game"
+    ],
+    [
+     "t 800",
+     "8 bit"
+    ],
+    [
+     "terminator",
+     "nes"
+    ],
+    [
+     "terminator 2",
+     "video game"
+    ],
+    [
+     "terminator 2",
+     "8 bit"
+    ],
+    [
+     "t2",
+     "8 bit"
+    ],
+    [
+     "terminator 2",
+     "nes"
+    ],
+    [
+     "t2",
+     "video game"
+    ]
+   ],
+   "not": []
+  },
+  {
    "id": "term-t2-pescadero",
    "tabs": [
     "terminator"
@@ -1047,29 +1128,6 @@
     "predator",
     "dutch"
    ]
-  },
-  {
-   "id": "term-t800-video",
-   "tabs": [
-    "terminator"
-   ],
-   "section": "Video games",
-   "name": "T-800 (8-bit video game)",
-   "match": [
-    [
-     "t 800",
-     "video game"
-    ],
-    [
-     "t 800",
-     "8 bit"
-    ],
-    [
-     "terminator",
-     "nes"
-    ]
-   ],
-   "not": []
   },
   {
    "id": "term-t800-technoir",
@@ -1472,6 +1530,49 @@
    "not": []
   },
   {
+   "id": "pred-classics-retro",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Predator Classics (5.5-inch retro Kenner-style line)",
+   "match": [
+    [
+     "5 5"
+    ],
+    [
+     "predator classics"
+    ],
+    [
+     "classics",
+     "retro"
+    ],
+    [
+     "kenner retro"
+    ],
+    [
+     "retro style",
+     "5"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-batman",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Batman vs. Predator (2-pack)",
+   "match": [
+    [
+     "batman",
+     "predator"
+    ]
+   ],
+   "not": []
+  },
+  {
    "id": "pred-2pack-tru",
    "tabs": [
     "predator"
@@ -1530,16 +1631,73 @@
    "not": []
   },
   {
-   "id": "pred-quarter-excl",
+   "id": "pred-gort-quarter",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "Gort Mask Predator 1/4 Scale (18 inch)",
+   "match": [
+    [
+     "gort",
+     "1 4"
+    ],
+    [
+     "gort",
+     "quarter"
+    ],
+    [
+     "gort",
+     "18"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-gort",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "Classic Predator with Gort Mask (SDCC 2011)",
+   "match": [
+    [
+     "gort"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-bigred-quarter",
    "tabs": [
     "predator"
    ],
    "section": "Games, comics and concepts",
-   "name": "1/4 Scale Exclusives (Gort Mask, Big Red)",
+   "name": "Big Red 1/4 Scale (Batman: Dead End)",
    "match": [
     [
-     "gort"
+     "big red",
+     "1 4"
     ],
+    [
+     "big red",
+     "quarter"
+    ],
+    [
+     "big red",
+     "18"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-bigred",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Big Red Predator (Batman: Dead End, Series 7)",
+   "match": [
     [
      "big red"
     ]
@@ -1736,6 +1894,90 @@
    "not": []
   },
   {
+   "id": "pred-dutch-thermal",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator (1987)",
+   "name": "Dutch (Thermal Vision, Series 11)",
+   "match": [
+    [
+     "dutch",
+     "thermal"
+    ],
+    [
+     "thermal vision dutch"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-dutch-encounter",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator (1987)",
+   "name": "Dutch (Jungle Encounter)",
+   "match": [
+    [
+     "dutch",
+     "encounter"
+    ],
+    [
+     "jungle encounter"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-dutch-briefing",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator (1987)",
+   "name": "Dutch (Jungle Briefing, SDCC 2017)",
+   "match": [
+    [
+     "dutch",
+     "briefing"
+    ],
+    [
+     "jungle briefing"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-dutch-video",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Dutch (NES video game)",
+   "match": [
+    [
+     "predator",
+     "schwarzenegger",
+     "video game"
+    ],
+    [
+     "predator",
+     "schwarzenegger",
+     "nes"
+    ],
+    [
+     "predator",
+     "arnold",
+     "video game"
+    ],
+    [
+     "schwarzenegger",
+     "classic video game"
+    ]
+   ],
+   "not": []
+  },
+  {
    "id": "pred-dutch",
    "tabs": [
     "predator"
@@ -1837,6 +2079,18 @@
     [
      "city hunter",
      "nes"
+    ],
+    [
+     "predator 2",
+     "game"
+    ],
+    [
+     "predator 2",
+     "video game"
+    ],
+    [
+     "predator 2",
+     "16 bit"
     ]
    ],
    "not": []
@@ -1926,12 +2180,66 @@
    "not": []
   },
   {
+   "id": "pred-city-masked",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "City Hunter Masked (Series 7, 2013)",
+   "match": [
+    [
+     "city hunter",
+     "masked"
+    ],
+    [
+     "city hunter",
+     "series 7"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-city-s4",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "City Hunter (Series 4, 2011, unmasked)",
+   "match": [
+    [
+     "city hunter",
+     "series 4"
+    ],
+    [
+     "city hunter",
+     "ser 4"
+    ],
+    [
+     "city hunter",
+     "2010"
+    ],
+    [
+     "city hunter",
+     "2011"
+    ],
+    [
+     "city hunter",
+     "unmasked"
+    ],
+    [
+     "city hunter",
+     "maskless"
+    ]
+   ],
+   "not": []
+  },
+  {
    "id": "pred-city",
    "tabs": [
     "predator"
    ],
    "section": "Predator 2 (1990)",
-   "name": "City Hunter (other releases)",
+   "name": "City Hunter (version not in title)",
    "match": [
     [
      "city hunter"
@@ -2205,6 +2513,30 @@
    ]
   },
   {
+   "id": "pred-darkhorse",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Dark Horse 25th Anniversary Predator (Concrete Jungle)",
+   "match": [
+    [
+     "dark horse",
+     "25th"
+    ],
+    [
+     "dark horse",
+     "predator",
+     "2015"
+    ],
+    [
+     "dark horse comics",
+     "25th"
+    ]
+   ],
+   "not": []
+  },
+  {
    "id": "pred-concrete",
    "tabs": [
     "predator"
@@ -2229,6 +2561,23 @@
     "bone throne",
     "diorama"
    ]
+  },
+  {
+   "id": "pred-lasershot",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Lasershot Predator (Ultimate Alien Hunter, Kenner Tribute)",
+   "match": [
+    [
+     "laser shot"
+    ],
+    [
+     "lasershot"
+    ]
+   ],
+   "not": []
   },
   {
    "id": "pred-arcade-hunter",
@@ -2285,14 +2634,14 @@
     "predator"
    ],
    "section": "Games, comics and concepts",
-   "name": "Other Arcade Predators (Lasershot, Mad)",
+   "name": "Mad Predator (Arcade)",
    "match": [
+    [
+     "mad predator"
+    ],
     [
      "arcade",
      "predator"
-    ],
-    [
-     "lasershot"
     ]
    ],
    "not": [
@@ -2319,12 +2668,69 @@
    "not": []
   },
   {
+   "id": "pred-scar-cloaked",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Cloaked Scar (SDCC 2016)",
+   "match": [
+    [
+     "scar",
+     "cloaked"
+    ],
+    [
+     "scar",
+     "hologram"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-scar-masked",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Masked Scar (Series 15)",
+   "match": [
+    [
+     "scar",
+     "masked"
+    ],
+    [
+     "scar",
+     "series 15"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-scar-unmasked",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Scar (Series 14, unmasked)",
+   "match": [
+    [
+     "scar",
+     "unmasked"
+    ],
+    [
+     "scar",
+     "series 14"
+    ]
+   ],
+   "not": []
+  },
+  {
    "id": "pred-scar",
    "tabs": [
     "predator"
    ],
    "section": "Alien vs. Predator",
-   "name": "Scar Predator",
+   "name": "Scar Predator (version not in title)",
    "match": [
     [
      "scar"
@@ -2361,12 +2767,88 @@
    "not": []
   },
   {
+   "id": "pred-wolf-cloaked",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Cloaked Stealth Wolf (AvP Requiem, 2008)",
+   "match": [
+    [
+     "wolf",
+     "cloaked"
+    ],
+    [
+     "wolf",
+     "stealth"
+    ],
+    [
+     "requiem",
+     "cloaked"
+    ],
+    [
+     "requiem",
+     "stealth"
+    ],
+    [
+     "avpr",
+     "cloaked"
+    ],
+    [
+     "avpr",
+     "stealth"
+    ],
+    [
+     "cloaking",
+     "wolf"
+    ],
+    [
+     "wolf",
+     "cloak"
+    ]
+   ],
+   "not": [
+    "hybrid",
+    "predalien"
+   ]
+  },
+  {
+   "id": "pred-wolf-bd",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Battle Damaged Unmasked Wolf (AvP Requiem)",
+   "match": [
+    [
+     "requiem",
+     "battle damaged"
+    ],
+    [
+     "wolf",
+     "battle damaged"
+    ],
+    [
+     "wolf",
+     "unmasked"
+    ],
+    [
+     "requiem",
+     "unmasked"
+    ]
+   ],
+   "not": [
+    "hybrid",
+    "predalien"
+   ]
+  },
+  {
    "id": "pred-wolf",
    "tabs": [
     "predator"
    ],
    "section": "Alien vs. Predator",
-   "name": "Wolf Predator (AvP Requiem)",
+   "name": "Wolf Predator (AvP Requiem, other releases)",
    "match": [
     [
      "wolf"
@@ -2445,6 +2927,48 @@
    "not": []
   },
   {
+   "id": "pred-elder-v2",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "Elder Predator V2 (Series 12, 2014)",
+   "match": [
+    [
+     "elder",
+     "v2"
+    ],
+    [
+     "elder",
+     "series 12"
+    ],
+    [
+     "elder",
+     "v 2"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-elder-s3",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "Elder Predator (Series 3, 2011)",
+   "match": [
+    [
+     "elder",
+     "series 3"
+    ],
+    [
+     "elder",
+     "2011"
+    ]
+   ],
+   "not": []
+  },
+  {
    "id": "pred-elder",
    "tabs": [
     "predator"
@@ -2497,12 +3021,58 @@
    "not": []
   },
   {
+   "id": "pred-lost-ultimate",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "Ultimate Armored Lost Predator (30th Anniversary)",
+   "match": [
+    [
+     "lost",
+     "ultimate"
+    ],
+    [
+     "lost",
+     "30th"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-lost-armor",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "Battle Armor Lost Predator (Series 11, 2013)",
+   "match": [
+    [
+     "lost",
+     "battle armor"
+    ],
+    [
+     "lost",
+     "armored"
+    ],
+    [
+     "lost",
+     "series 11"
+    ],
+    [
+     "lost",
+     "armor"
+    ]
+   ],
+   "not": []
+  },
+  {
    "id": "pred-lost",
    "tabs": [
     "predator"
    ],
    "section": "Predator 2 (1990)",
-   "name": "Lost Predator",
+   "name": "Lost Predator (Series 6, 2012)",
    "match": [
     [
      "lost",
@@ -2588,15 +3158,92 @@
    "not": []
   },
   {
+   "id": "pred-berserker-cloaked",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predators (2010) and The Predator (2018)",
+   "name": "Cloaked Berserker (SDCC 2010)",
+   "match": [
+    [
+     "berserker",
+     "cloaked"
+    ],
+    [
+     "berserker",
+     "sdcc"
+    ],
+    [
+     "berserker",
+     "comic con"
+    ],
+    [
+     "berserker",
+     "comic com"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-berserker-unmasked",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predators (2010) and The Predator (2018)",
+   "name": "Unmasked Berserker (Series 2)",
+   "match": [
+    [
+     "berserker",
+     "unmasked"
+    ],
+    [
+     "berserker",
+     "open mouth"
+    ],
+    [
+     "berserker",
+     "series 2"
+    ]
+   ],
+   "not": []
+  },
+  {
    "id": "pred-berserker",
    "tabs": [
     "predator"
    ],
    "section": "Predators (2010) and The Predator (2018)",
-   "name": "Berserker Predator",
+   "name": "Berserker Predator (Series 1, 2010)",
    "match": [
     [
      "berserker"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-falconer-s7",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predators (2010) and The Predator (2018)",
+   "name": "Semi-Cloaked Falconer (Series 7, 2012)",
+   "match": [
+    [
+     "falconer",
+     "cloaked"
+    ],
+    [
+     "falconer",
+     "series 7"
+    ],
+    [
+     "falconer",
+     "2012"
+    ],
+    [
+     "falconer",
+     "semi"
     ]
    ],
    "not": []
@@ -2607,7 +3254,7 @@
     "predator"
    ],
    "section": "Predators (2010) and The Predator (2018)",
-   "name": "Falconer Predator",
+   "name": "Falconer Predator (Series 1, 2010)",
    "match": [
     [
      "falconer"
@@ -2687,6 +3334,68 @@
     ],
     [
      "enforcer"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-nightstorm",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Nightstorm Predator (Kenner Tribute)",
+   "match": [
+    [
+     "nightstorm"
+    ],
+    [
+     "night storm"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-scavage",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Scavage Predator (Kenner Tribute)",
+   "match": [
+    [
+     "scavage"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-hornhead",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Hornhead (Predator: Life and Death)",
+   "match": [
+    [
+     "hornhead"
+    ],
+    [
+     "horn head"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-brokentusk",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Broken Tusk Predator (AvP)",
+   "match": [
+    [
+     "broken tusk"
     ]
    ],
    "not": []
@@ -2788,20 +3497,6 @@
    "match": [
     [
      "machiko"
-    ]
-   ],
-   "not": []
-  },
-  {
-   "id": "pred-lasershot",
-   "tabs": [
-    "predator"
-   ],
-   "section": "Games, comics and concepts",
-   "name": "Lasershot Predator (Kenner Tribute)",
-   "match": [
-    [
-     "laser shot"
     ]
    ],
    "not": []
@@ -2997,27 +3692,166 @@
    ]
   },
   {
-   "id": "pred-alienhunter",
+   "id": "pred-classic-cloaked",
    "tabs": [
     "predator"
    ],
-   "section": "Games, comics and concepts",
-   "name": "Ultimate Alien Hunter Predator",
+   "section": "Predators (2010) and The Predator (2018)",
+   "name": "Cloaked Classic Predator (Toys R Us)",
    "match": [
     [
-     "ultimate alien hunter"
+     "classic",
+     "cloaked"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-classic-bd",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predators (2010) and The Predator (2018)",
+   "name": "Battle Damaged Classic Predator (Series 2)",
+   "match": [
+    [
+     "classic",
+     "battle damaged"
     ],
     [
-     "alien hunter",
+     "classic predator",
+     "unmasked"
+    ],
+    [
+     "classic",
+     "unmasked"
+    ],
+    [
+     "predators",
+     "unmasked"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-classic",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predators (2010) and The Predator (2018)",
+   "name": "Classic Predator (Predators 2010, Series 1)",
+   "match": [
+    [
+     "classic predator"
+    ],
+    [
+     "classic",
      "predator"
     ]
    ],
    "not": [
-    "hive wars",
-    "ghost",
-    "viper",
-    "spiked",
-    "blade fighter"
+    "predator 2",
+    "video game",
+    "8 bit"
+   ]
+  },
+  {
+   "id": "pred-jungle-quarter-unmasked",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator (1987)",
+   "name": "Jungle Hunter 1/4 Scale (Unmasked)",
+   "match": [
+    [
+     "unmasked",
+     "1 4"
+    ],
+    [
+     "unmasked",
+     "19"
+    ],
+    [
+     "unmasked",
+     "quarter"
+    ]
+   ],
+   "not": [
+    "predator 2",
+    "city"
+   ]
+  },
+  {
+   "id": "pred-jungle-unmasked",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator (1987)",
+   "name": "Jungle Hunter Unmasked (30th Anniversary)",
+   "match": [
+    [
+     "jungle hunter",
+     "unmasked"
+    ],
+    [
+     "predator 1987",
+     "unmasked"
+    ],
+    [
+     "unmasked",
+     "30th"
+    ]
+   ],
+   "not": [
+    "predator 2",
+    "city",
+    "classic",
+    "1 4",
+    "19",
+    "quarter"
+   ]
+  },
+  {
+   "id": "pred-jungle-proto",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator (1987)",
+   "name": "Jungle Hunter Prototype Mask (30th Anniversary)",
+   "match": [
+    [
+     "prototype mask"
+    ],
+    [
+     "jungle hunter",
+     "prototype"
+    ]
+   ],
+   "not": [
+    "predator 2",
+    "city"
+   ]
+  },
+  {
+   "id": "pred-jungle-cloaked",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator (1987)",
+   "name": "Cloaked Jungle Hunter (SDCC 2012)",
+   "match": [
+    [
+     "jungle hunter",
+     "cloaked"
+    ],
+    [
+     "jungle hunter",
+     "stealth"
+    ]
+   ],
+   "not": [
+    "predator 2",
+    "city"
    ]
   },
   {
@@ -3131,37 +3965,12 @@
    ]
   },
   {
-   "id": "pred-jungle-classic",
-   "tabs": [
-    "predator"
-   ],
-   "section": "Predator (1987)",
-   "name": "Classic Jungle Hunter (Series 1, Classics)",
-   "match": [
-    [
-     "classic",
-     "predator"
-    ],
-    [
-     "jungle hunter",
-     "series 1"
-    ],
-    [
-     "unmasked",
-     "predator"
-    ]
-   ],
-   "not": [
-    "predator 2"
-   ]
-  },
-  {
    "id": "pred-jungle",
    "tabs": [
     "predator"
    ],
    "section": "Predator (1987)",
-   "name": "Jungle Hunter (other releases)",
+   "name": "Jungle Hunter (version not in title)",
    "match": [
     [
      "jungle"
@@ -3172,13 +3981,6 @@
     [
      "predator",
      "1987"
-    ],
-    [
-     "classic predator"
-    ],
-    [
-     "unmasked",
-     "predator"
     ],
     [
      "predator",
@@ -3192,16 +3994,112 @@
    ]
   },
   {
-   "id": "alien-earth",
+   "id": "alien-classics-retro",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Video games",
+   "name": "Alien Classics (5.5-inch retro Kenner-style line)",
+   "match": [
+    [
+     "5 5"
+    ],
+    [
+     "alien classics"
+    ],
+    [
+     "aliens classics"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-batman",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Batman and Joker Alien (2-pack)",
+   "match": [
+    [
+     "joker",
+     "alien"
+    ],
+    [
+     "batman",
+     "alien"
+    ],
+    [
+     "batman",
+     "aliens"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-purple",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Purple Warrior Alien (Club exclusive)",
+   "match": [
+    [
+     "purple"
+    ],
+    [
+     "club",
+     "2019"
+    ],
+    [
+     "2019",
+     "club"
+    ],
+    [
+     "club x"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-sewer",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Sewer Mutation Warrior Alien (SDCC 2017)",
+   "match": [
+    [
+     "sewer mutation"
+    ],
+    [
+     "sewer"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-defiance",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Video games",
+   "name": "Defiance Xenomorph (Aliens: Defiance comic, Series 11)",
+   "match": [
+    [
+     "defiance"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-earth-wendy",
    "tabs": [
     "alien"
    ],
    "section": "Prometheus, Covenant, Romulus and Earth",
-   "name": "Alien: Earth figures",
+   "name": "Wendy's Xenomorph (Alien: Earth)",
    "match": [
-    [
-     "alien earth"
-    ],
     [
      "wendy"
     ]
@@ -3209,12 +4107,199 @@
    "not": []
   },
   {
+   "id": "alien-rom-scorched",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Prometheus, Covenant, Romulus and Earth",
+   "name": "Ultimate Scorched Xenomorph (Alien: Romulus)",
+   "match": [
+    [
+     "scorched"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-rom-lab",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Prometheus, Covenant, Romulus and Earth",
+   "name": "Suspended Lab Xenomorph (Alien: Romulus)",
+   "match": [
+    [
+     "suspended lab"
+    ],
+    [
+     "suspended",
+     "xenomorph"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-rom-acc",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Prometheus, Covenant, Romulus and Earth",
+   "name": "Alien: Romulus Accessory Set",
+   "match": [
+    [
+     "romulus",
+     "accessory"
+    ],
+    [
+     "romulus",
+     "accessories"
+    ],
+    [
+     "romulus",
+     "accesory"
+    ],
+    [
+     "romulus",
+     "kit"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-rom-xx121",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Prometheus, Covenant, Romulus and Earth",
+   "name": "Ultimate Xenomorph XX121 (Alien: Romulus)",
+   "match": [
+    [
+     "xx121"
+    ],
+    [
+     "xx 121"
+    ],
+    [
+     "romulus",
+     "ultimate"
+    ]
+   ],
+   "not": [
+    "ripley"
+   ]
+  },
+  {
+   "id": "alien-covenant-pack",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Prometheus, Covenant, Romulus and Earth",
+   "name": "Alien: Covenant Creature Pack",
+   "match": [
+    [
+     "covenant",
+     "creature"
+    ],
+    [
+     "covenant",
+     "accessory"
+    ],
+    [
+     "covenant",
+     "pack"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-holo",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Prometheus, Covenant, Romulus and Earth",
+   "name": "Holographic Engineers (Prometheus Series 3)",
+   "match": [
+    [
+     "holographic"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-engineer-pressure",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Prometheus, Covenant, Romulus and Earth",
+   "name": "Engineer (Pressure Suit)",
+   "match": [
+    [
+     "engineer",
+     "pressure suit"
+    ],
+    [
+     "pressure suit"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-engineer-chair",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Prometheus, Covenant, Romulus and Earth",
+   "name": "Engineer (Chair Suit)",
+   "match": [
+    [
+     "engineer",
+     "chair"
+    ],
+    [
+     "chair suit"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-vickers",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Prometheus, Covenant, Romulus and Earth",
+   "name": "Meredith Vickers (Prometheus Lost Wave)",
+   "match": [
+    [
+     "vickers"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-earth",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Prometheus, Covenant, Romulus and Earth",
+   "name": "Ultimate Xenomorph (Alien: Earth)",
+   "match": [
+    [
+     "alien earth"
+    ]
+   ],
+   "not": [
+    "wendy",
+    "club",
+    "purple"
+   ]
+  },
+  {
    "id": "alien-romulus",
    "tabs": [
     "alien"
    ],
    "section": "Prometheus, Covenant, Romulus and Earth",
-   "name": "Alien: Romulus Xenomorph (all versions)",
+   "name": "Other Alien: Romulus figures",
    "match": [
     [
      "romulus"
@@ -3253,7 +4338,13 @@
      "covenant"
     ]
    ],
-   "not": []
+   "not": [
+    "fifield",
+    "david",
+    "prometheus",
+    "shaw",
+    "vickers"
+   ]
   },
   {
    "id": "alien-engineer",
@@ -3261,7 +4352,7 @@
     "alien"
    ],
    "section": "Prometheus, Covenant, Romulus and Earth",
-   "name": "Engineer (Prometheus)",
+   "name": "Engineer (version not in title)",
    "match": [
     [
      "engineer"
@@ -3275,7 +4366,7 @@
     "alien"
    ],
    "section": "Prometheus, Covenant, Romulus and Earth",
-   "name": "David (Prometheus)",
+   "name": "David (Prometheus Series 2)",
    "match": [
     [
      "david"
@@ -3289,7 +4380,7 @@
     "alien"
    ],
    "section": "Prometheus, Covenant, Romulus and Earth",
-   "name": "Fifield (Prometheus)",
+   "name": "Fifield (Infected, Prometheus Lost Wave)",
    "match": [
     [
      "fifield"
@@ -3303,7 +4394,7 @@
     "alien"
    ],
    "section": "Prometheus, Covenant, Romulus and Earth",
-   "name": "Shaw (Prometheus)",
+   "name": "Shaw (Prometheus Lost Wave)",
    "match": [
     [
      "shaw"
@@ -3317,7 +4408,7 @@
     "alien"
    ],
    "section": "Prometheus, Covenant, Romulus and Earth",
-   "name": "Deacon and Trilobite (Prometheus)",
+   "name": "Deacon, and Engineer vs. Trilobite 2-pack (Prometheus)",
    "match": [
     [
      "deacon"
@@ -3352,12 +4443,76 @@
    "not": []
   },
   {
+   "id": "alien-iso-compression",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien 3, Resurrection and Isolation",
+   "name": "Amanda Ripley (Compression Suit, Alien: Isolation)",
+   "match": [
+    [
+     "amanda",
+     "compression"
+    ],
+    [
+     "isolation",
+     "compression"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-iso-xeno",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien 3, Resurrection and Isolation",
+   "name": "Xenomorph (Alien: Isolation)",
+   "match": [
+    [
+     "isolation",
+     "xenomorph"
+    ],
+    [
+     "isolation",
+     "drone"
+    ],
+    [
+     "isolation",
+     "alien",
+     "figure"
+    ]
+   ],
+   "not": [
+    "amanda",
+    "ripley"
+   ]
+  },
+  {
+   "id": "alien-iso-amanda",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien 3, Resurrection and Isolation",
+   "name": "Amanda Ripley (Jumpsuit, Alien: Isolation)",
+   "match": [
+    [
+     "amanda"
+    ],
+    [
+     "isolation",
+     "ripley"
+    ]
+   ],
+   "not": []
+  },
+  {
    "id": "alien-isolation",
    "tabs": [
     "alien"
    ],
    "section": "Alien 3, Resurrection and Isolation",
-   "name": "Alien: Isolation (Amanda Ripley and more)",
+   "name": "Other Alien: Isolation figures",
    "match": [
     [
      "isolation"
@@ -3467,12 +4622,77 @@
    "not": []
   },
   {
+   "id": "alien-res-ripley8",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien 3, Resurrection and Isolation",
+   "name": "Ripley 8 (Alien Resurrection)",
+   "match": [
+    [
+     "ripley 8"
+    ],
+    [
+     "ripley8"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-res-newborn",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien 3, Resurrection and Isolation",
+   "name": "Newborn (Alien Resurrection)",
+   "match": [
+    [
+     "newborn"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-res-queen",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien 3, Resurrection and Isolation",
+   "name": "Resurrection Queen (Alien Resurrection)",
+   "match": [
+    [
+     "resurrection",
+     "queen"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-res-warrior",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien 3, Resurrection and Isolation",
+   "name": "Resurrection Warrior (Alien Resurrection)",
+   "match": [
+    [
+     "resurrection",
+     "warrior"
+    ],
+    [
+     "resurrection",
+     "xenomorph"
+    ]
+   ],
+   "not": []
+  },
+  {
    "id": "alien-resurrection",
    "tabs": [
     "alien"
    ],
    "section": "Alien 3, Resurrection and Isolation",
-   "name": "Alien Resurrection (Ripley 8, Warrior)",
+   "name": "Other Alien Resurrection figures",
    "match": [
     [
      "resurrection"
@@ -3585,12 +4805,54 @@
    "not": []
   },
   {
+   "id": "alien-3-s8",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien 3, Resurrection and Isolation",
+   "name": "Dog Alien (Series 8, brown or gray, 2016)",
+   "match": [
+    [
+     "dog",
+     "brown"
+    ],
+    [
+     "dog",
+     "gray"
+    ],
+    [
+     "dog",
+     "grey"
+    ],
+    [
+     "dog alien",
+     "series 8"
+    ],
+    [
+     "dog",
+     "two tone"
+    ],
+    [
+     "dog",
+     "reverse"
+    ],
+    [
+     "dog",
+     "series 8"
+    ]
+   ],
+   "not": [
+    "genocide",
+    "ultimate"
+   ]
+  },
+  {
    "id": "alien-3",
    "tabs": [
     "alien"
    ],
    "section": "Alien 3, Resurrection and Isolation",
-   "name": "Dog Alien (Alien 3)",
+   "name": "Dog Alien (Series 3, 2014, or version not in title)",
    "match": [
     [
      "alien 3"
@@ -3602,7 +4864,9 @@
      "dog alien"
     ]
    ],
-   "not": []
+   "not": [
+    "genocide"
+   ]
   },
   {
    "id": "alien-redqueen",
@@ -3874,39 +5138,6 @@
    "match": [
     [
      "queen facehugger"
-    ]
-   ],
-   "not": []
-  },
-  {
-   "id": "alien-bull",
-   "tabs": [
-    "alien"
-   ],
-   "section": "Kenner Tribute creatures",
-   "name": "Bull Alien",
-   "match": [
-    [
-     "bull alien"
-    ],
-    [
-     "bull",
-     "kenner"
-    ]
-   ],
-   "not": []
-  },
-  {
-   "id": "alien-crab",
-   "tabs": [
-    "alien"
-   ],
-   "section": "Kenner Tribute creatures",
-   "name": "Crab Alien",
-   "match": [
-    [
-     "crab",
-     "alien"
     ]
    ],
    "not": []
@@ -4196,12 +5427,67 @@
    "not": []
   },
   {
+   "id": "alien-hicks-hudson",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Hicks and Hudson (2-pack)",
+   "match": [
+    [
+     "hicks",
+     "hudson"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-hicks-vs",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Hicks vs. Xenomorph Warrior (2-pack)",
+   "match": [
+    [
+     "hicks",
+     "vs"
+    ],
+    [
+     "hicks",
+     "warrior",
+     "2 pack"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-hudson-vs",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Hudson vs. Xenomorph Warrior (2-pack)",
+   "match": [
+    [
+     "hudson",
+     "vs"
+    ],
+    [
+     "hudson",
+     "warrior",
+     "2 pack"
+    ]
+   ],
+   "not": []
+  },
+  {
    "id": "alien-hicks",
    "tabs": [
     "alien"
    ],
    "section": "Aliens (1986)",
-   "name": "Corporal Hicks",
+   "name": "Corporal Hicks (Series 1, 2013)",
    "match": [
     [
      "hicks"
@@ -4215,10 +5501,59 @@
     "alien"
    ],
    "section": "Aliens (1986)",
-   "name": "Private Hudson",
+   "name": "Private Hudson (Series 1, 2013)",
    "match": [
     [
      "hudson"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-vasquez-kenner",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Space Marine Vasquez (Kenner Tribute, Alien Day 2017)",
+   "match": [
+    [
+     "vasquez",
+     "kenner"
+    ],
+    [
+     "vasquez",
+     "space marine"
+    ],
+    [
+     "vasquez",
+     "alien day"
+    ],
+    [
+     "vasquez",
+     "aliens day"
+    ],
+    [
+     "space marine vasquez"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-vasquez-bdu",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Vasquez (BDU, Series 12)",
+   "match": [
+    [
+     "vasquez",
+     "bdu"
+    ],
+    [
+     "vasquez",
+     "series 12"
     ]
    ],
    "not": []
@@ -4229,7 +5564,7 @@
     "alien"
    ],
    "section": "Aliens (1986)",
-   "name": "Private Vasquez",
+   "name": "Private Vasquez (Series 9, 2016, or version not in title)",
    "match": [
     [
      "vasquez"
@@ -4246,7 +5581,7 @@
     "alien"
    ],
    "section": "Aliens (1986)",
-   "name": "Sergeant Apone",
+   "name": "Space Marine Apone (Kenner Tribute)",
    "match": [
     [
      "apone"
@@ -4260,24 +5595,10 @@
     "alien"
    ],
    "section": "Aliens (1986)",
-   "name": "Private Drake",
+   "name": "Space Marine Drake (Kenner Tribute)",
    "match": [
     [
      "drake"
-    ]
-   ],
-   "not": []
-  },
-  {
-   "id": "alien-gorman",
-   "tabs": [
-    "alien"
-   ],
-   "section": "Aliens (1986)",
-   "name": "Lieutenant Gorman",
-   "match": [
-    [
-     "gorman"
     ]
    ],
    "not": []
@@ -4316,7 +5637,7 @@
     "alien"
    ],
    "section": "Aliens (1986)",
-   "name": "Burke",
+   "name": "Burke (Hadley's Hope set)",
    "match": [
     [
      "burke"
@@ -4367,12 +5688,32 @@
    "not": []
   },
   {
+   "id": "alien-queen-40th",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Alien Queen Ultra Deluxe (40th Anniversary, 2026)",
+   "match": [
+    [
+     "queen",
+     "40th"
+    ]
+   ],
+   "not": [
+    "facehugger",
+    "resurrection",
+    "genocide",
+    "red queen"
+   ]
+  },
+  {
    "id": "alien-queen",
    "tabs": [
     "alien"
    ],
    "section": "Aliens (1986)",
-   "name": "Alien Queen",
+   "name": "Alien Queen Ultra Deluxe (2013 release and reissues)",
    "match": [
     [
      "queen"
@@ -4414,15 +5755,45 @@
    "not": []
   },
   {
+   "id": "alien-kane-40th",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien (1979)",
+   "name": "Kane (40th Anniversary Wave 3)",
+   "match": [
+    [
+     "kane",
+     "40th"
+    ]
+   ],
+   "not": []
+  },
+  {
    "id": "alien-kane",
    "tabs": [
     "alien"
    ],
    "section": "Alien (1979)",
-   "name": "Kane",
+   "name": "Kane (Series 3, 35th Anniversary, 2014)",
    "match": [
     [
      "kane"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-dallas-40th",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien (1979)",
+   "name": "Dallas (40th Anniversary Wave 1)",
+   "match": [
+    [
+     "dallas",
+     "40th"
     ]
    ],
    "not": []
@@ -4433,10 +5804,25 @@
     "alien"
    ],
    "section": "Alien (1979)",
-   "name": "Dallas",
+   "name": "Dallas (Series 4, 35th Anniversary, 2015)",
    "match": [
     [
      "dallas"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "alien-lambert-40th",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien (1979)",
+   "name": "Lambert (40th Anniversary Wave 4)",
+   "match": [
+    [
+     "lambert",
+     "40th"
     ]
    ],
    "not": []
@@ -4447,7 +5833,7 @@
     "alien"
    ],
    "section": "Alien (1979)",
-   "name": "Lambert",
+   "name": "Lambert (Series 11, 2017, or year not in title)",
    "match": [
     [
      "lambert"
@@ -4603,6 +5989,76 @@
     ]
    ],
    "not": []
+  },
+  {
+   "id": "alien-warrior-quarter",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Xenomorph Warrior 1/4 Scale (Aliens)",
+   "match": [
+    [
+     "warrior",
+     "1 4"
+    ],
+    [
+     "warrior",
+     "quarter"
+    ],
+    [
+     "aliens",
+     "2ft"
+    ],
+    [
+     "alien",
+     "2ft"
+    ],
+    [
+     "warrior",
+     "1 4 scale"
+    ]
+   ],
+   "not": [
+    "big chap",
+    "1979",
+    "prototype",
+    "translucent",
+    "predator"
+   ]
+  },
+  {
+   "id": "alien-bigchap-glow",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien (1979)",
+   "name": "Big Chap (Glow in the Dark)",
+   "match": [
+    [
+     "big chap",
+     "glow"
+    ],
+    [
+     "alien",
+     "glow",
+     "ultimate"
+    ],
+    [
+     "glow in the dark",
+     "big chap"
+    ],
+    [
+     "gitd",
+     "alien"
+    ]
+   ],
+   "not": [
+    "thermal",
+    "warrior",
+    "robocop",
+    "predator"
+   ]
   },
   {
    "id": "alien-quarter",
@@ -4908,6 +6364,52 @@
     ]
    ],
    "not": []
+  },
+  {
+   "id": "alien-avp-warrior",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Xenomorph Warrior (Alien vs. Predator, Series 7)",
+   "match": [
+    [
+     "alien vs predator",
+     "warrior alien"
+    ],
+    [
+     "alien vs predator",
+     "alien warrior"
+    ],
+    [
+     "avp",
+     "warrior alien"
+    ],
+    [
+     "avp",
+     "alien warrior"
+    ],
+    [
+     "alien vs predator",
+     "xenomorph warrior"
+    ],
+    [
+     "avp",
+     "xenomorph warrior"
+    ]
+   ],
+   "not": [
+    "warrior predator",
+    "predator warrior",
+    "thermal",
+    "dutch",
+    "linn",
+    "razor",
+    "arachnoid",
+    "chrysalis",
+    "preacher",
+    "vga"
+   ]
   },
   {
    "id": "alien-warrior-40th",

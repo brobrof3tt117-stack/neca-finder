@@ -179,6 +179,16 @@
     [
      "the thing",
      "40th"
+    ],
+    [
+     "the thing",
+     "alien terror"
+    ],
+    [
+     "ultimate in alien terror"
+    ],
+    [
+     "form changing"
     ]
    ],
    "not": [
@@ -213,6 +223,12 @@
     [
      "macready",
      "v 3"
+    ],
+    [
+     "04952"
+    ],
+    [
+     "49525"
     ]
    ],
    "not": [
@@ -242,6 +258,12 @@
     [
      "macready",
      "v 2"
+    ],
+    [
+     "04901"
+    ],
+    [
+     "nc04901"
     ]
    ],
    "not": [
@@ -271,6 +293,21 @@
     [
      "macready",
      "version 1"
+    ],
+    [
+     "04900"
+    ],
+    [
+     "macready",
+     "bottle"
+    ],
+    [
+     "macready",
+     "whiskey"
+    ],
+    [
+     "macready",
+     "2021"
     ]
    ],
    "not": [
@@ -306,6 +343,11 @@
     ],
     [
      "terminator dog"
+    ],
+    [
+     "robocop",
+     "terminator",
+     "dog"
     ]
    ],
    "not": [
@@ -326,6 +368,15 @@
    "match": [
     [
      "endoskeleton assault"
+    ],
+    [
+     "robocop",
+     "terminator",
+     "endoskeleton",
+     "2 pack"
+    ],
+    [
+     "51906"
     ]
    ],
    "not": [
@@ -436,6 +487,27 @@
    "match": [
     [
      "plasma rifle"
+    ]
+   ],
+   "not": [
+    "endoglow",
+    "endo glow",
+    "sarah",
+    "lot"
+   ]
+  },
+  {
+   "id": "rvt-ed209",
+   "tabs": [
+    "robocop",
+    "terminator"
+   ],
+   "section": "Video games",
+   "name": "ED-209 (RoboCop vs. Terminator video game)",
+   "match": [
+    [
+     "ed 209",
+     "terminator"
     ]
    ],
    "not": [
@@ -672,6 +744,10 @@
     [
      "the terminator",
      "endoskeleton"
+    ],
+    [
+     "endoskeleton",
+     "2015"
     ]
    ],
    "not": [
@@ -680,6 +756,31 @@
     "judgment",
     "cult classics"
    ]
+  },
+  {
+   "id": "term-endo-t2s1",
+   "tabs": [
+    "terminator"
+   ],
+   "section": "Terminator 2: Judgment Day (1991)",
+   "name": "T2 Endoskeleton (Series 1, 2010)",
+   "match": [
+    [
+     "endoskeleton",
+     "series 1"
+    ],
+    [
+     "endoskeleton",
+     "terminator 2",
+     "2011"
+    ],
+    [
+     "endoskeleton",
+     "terminator 2",
+     "2010"
+    ]
+   ],
+   "not": []
   },
   {
    "id": "term-endo",
@@ -1525,6 +1626,15 @@
     [
      "robocop",
      "first series"
+    ],
+    [
+     "robocop",
+     "2012"
+    ],
+    [
+     "robocop",
+     "reel toys",
+     "2012"
     ]
    ],
    "not": []
@@ -1773,6 +1883,10 @@
     [
      "dutch",
      "linn"
+    ],
+    [
+     "dutch",
+     "lin"
     ]
    ],
    "not": []
@@ -2244,6 +2358,9 @@
     [
      "predator 2",
      "city"
+    ],
+    [
+     "51549"
     ]
    ],
    "not": []
@@ -2468,6 +2585,9 @@
    "match": [
     [
      "stone heart"
+    ],
+    [
+     "stoneheart"
     ]
    ],
    "not": [
@@ -2502,6 +2622,9 @@
    "match": [
     [
      "scarface"
+    ],
+    [
+     "scareface"
     ]
    ],
    "not": [
@@ -2614,6 +2737,14 @@
      "arcade",
      "warrior",
      "predator"
+    ],
+    [
+     "alien vs predator",
+     "warrior predator"
+    ],
+    [
+     "avp",
+     "warrior predator"
     ]
    ],
    "not": [
@@ -2717,6 +2848,10 @@
     [
      "scar",
      "series 14"
+    ],
+    [
+     "scar",
+     "2015"
     ]
    ],
    "not": []
@@ -2806,7 +2941,9 @@
    ],
    "not": [
     "hybrid",
-    "predalien"
+    "predalien",
+    "alien warrior",
+    "warrior alien"
    ]
   },
   {
@@ -2815,7 +2952,7 @@
     "predator"
    ],
    "section": "Alien vs. Predator",
-   "name": "Battle Damaged Unmasked Wolf (AvP Requiem)",
+   "name": "Battle Damaged or Unmasked Wolf (AvP Requiem)",
    "match": [
     [
      "requiem",
@@ -2832,11 +2969,51 @@
     [
      "requiem",
      "unmasked"
+    ],
+    [
+     "avpr",
+     "battle damaged"
+    ],
+    [
+     "wolf",
+     "open mouth"
     ]
    ],
    "not": [
     "hybrid",
-    "predalien"
+    "predalien",
+    "alien warrior",
+    "warrior alien"
+   ]
+  },
+  {
+   "id": "pred-wolf-masked",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Wolf Predator (Masked, AvP Requiem 2007)",
+   "match": [
+    [
+     "wolf",
+     "masked"
+    ],
+    [
+     "requiem",
+     "masked"
+    ],
+    [
+     "avpr",
+     "masked"
+    ]
+   ],
+   "not": [
+    "hybrid",
+    "predalien",
+    "alien warrior",
+    "warrior alien",
+    "unmasked",
+    "battle damaged"
    ]
   },
   {
@@ -2861,7 +3038,9 @@
    ],
    "not": [
     "hybrid",
-    "predalien"
+    "predalien",
+    "alien warrior",
+    "warrior alien"
    ]
   },
   {
@@ -3150,6 +3329,15 @@
     [
      "ultimate warrior",
      "predator"
+    ],
+    [
+     "warrior",
+     "series 6"
+    ],
+    [
+     "series 6",
+     "predator",
+     "warrior"
     ]
    ],
    "not": []
@@ -3286,6 +3474,9 @@
     ],
     [
      "lab escape"
+    ],
+    [
+     "fugtive"
     ]
    ],
    "not": []
@@ -3726,6 +3917,10 @@
     [
      "predators",
      "unmasked"
+    ],
+    [
+     "2010",
+     "unmasked"
     ]
    ],
    "not": []
@@ -3849,6 +4044,36 @@
    "not": [
     "predator 2",
     "city"
+   ]
+  },
+  {
+   "id": "pred-uah",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Games, comics and concepts",
+   "name": "Ultimate Alien Hunter (Kenner Tribute, 2015 convention exclusive)",
+   "match": [
+    [
+     "ultimate alien hunter"
+    ]
+   ],
+   "not": [
+    "lasershot",
+    "laser shot",
+    "ghost",
+    "viper",
+    "berserker",
+    "hive wars",
+    "spiked",
+    "blade fighter",
+    "nightstorm",
+    "scavage",
+    "renegade",
+    "cracked tusk",
+    "ambush",
+    "lava",
+    "wasp"
    ]
   },
   {
@@ -4220,7 +4445,10 @@
      "holographic"
     ]
    ],
-   "not": []
+   "not": [
+    "trilobite",
+    "deacon"
+   ]
   },
   {
    "id": "alien-engineer-pressure",
@@ -4238,7 +4466,10 @@
      "pressure suit"
     ]
    ],
-   "not": []
+   "not": [
+    "trilobite",
+    "deacon"
+   ]
   },
   {
    "id": "alien-engineer-chair",
@@ -4256,7 +4487,10 @@
      "chair suit"
     ]
    ],
-   "not": []
+   "not": [
+    "trilobite",
+    "deacon"
+   ]
   },
   {
    "id": "alien-vickers",
@@ -4271,6 +4505,35 @@
     ]
    ],
    "not": []
+  },
+  {
+   "id": "alien-avpr-warrior",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Alien Warrior (AvP Requiem, 2007)",
+   "match": [
+    [
+     "requiem",
+     "alien warrior"
+    ],
+    [
+     "avpr",
+     "alien warrior"
+    ],
+    [
+     "requiem",
+     "warrior alien"
+    ],
+    [
+     "avpr",
+     "warrior alien"
+    ]
+   ],
+   "not": [
+    "predator warrior"
+   ]
   },
   {
    "id": "alien-earth",
@@ -4306,7 +4569,15 @@
     ]
    ],
    "not": [
-    "ripley"
+    "ripley",
+    "warrior",
+    "dog",
+    "commando",
+    "genocide",
+    "albino",
+    "drone",
+    "ripley",
+    "battle damaged"
    ]
   },
   {
@@ -4355,7 +4626,10 @@
      "engineer"
     ]
    ],
-   "not": []
+   "not": [
+    "trilobite",
+    "deacon"
+   ]
   },
   {
    "id": "alien-david",
@@ -4544,6 +4818,9 @@
    "match": [
     [
      "spitter"
+    ],
+    [
+     "spitzer"
     ]
    ],
    "not": []
@@ -4722,6 +4999,29 @@
    "not": []
   },
   {
+   "id": "alien-3-pack",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien 3, Resurrection and Isolation",
+   "name": "Alien 3 Creature Accessory Pack",
+   "match": [
+    [
+     "alien 3",
+     "creature pack"
+    ],
+    [
+     "alien 3",
+     "accessory"
+    ],
+    [
+     "alien3",
+     "accessory"
+    ]
+   ],
+   "not": []
+  },
+  {
    "id": "alien-3-8bit",
    "tabs": [
     "alien"
@@ -4748,6 +5048,14 @@
     [
      "dog xenomorph",
      "video game"
+    ],
+    [
+     "aliens 3",
+     "8 bit"
+    ],
+    [
+     "dog alien",
+     "8 bit"
     ]
    ],
    "not": []
@@ -4836,6 +5144,10 @@
     [
      "dog",
      "series 8"
+    ],
+    [
+     "dog",
+     "2016"
     ]
    ],
    "not": [
@@ -4896,6 +5208,9 @@
     ],
     [
      "red queen"
+    ],
+    [
+     "genocid"
     ]
    ],
    "not": []
@@ -4942,6 +5257,13 @@
     [
      "thermal vision",
      "warrior alien"
+    ],
+    [
+     "therman vision"
+    ],
+    [
+     "thermal vision",
+     "alien"
     ]
    ],
    "not": []
@@ -4976,6 +5298,9 @@
     ],
     [
      "arachinoid"
+    ],
+    [
+     "arachnid"
     ]
    ],
    "not": []
@@ -5138,6 +5463,28 @@
     ]
    ],
    "not": []
+  },
+  {
+   "id": "alien-8bit",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Video games",
+   "name": "Alien (8-bit video game)",
+   "match": [
+    [
+     "alien",
+     "8 bit"
+    ]
+   ],
+   "not": [
+    "dog",
+    "alien 3",
+    "aliens 3",
+    "alien3",
+    "predator",
+    "ripley"
+   ]
   },
   {
    "id": "alien-ripley-newt",
@@ -5376,6 +5723,10 @@
     [
      "ripley",
      "kenner"
+    ],
+    [
+     "ripley",
+     "space marine"
     ]
    ],
    "not": []
@@ -5394,6 +5745,35 @@
     ]
    ],
    "not": []
+  },
+  {
+   "id": "alien-ripley-s5",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Lt. Ripley (Series 5, 2015)",
+   "match": [
+    [
+     "ripley",
+     "series 5"
+    ],
+    [
+     "ripley",
+     "2015"
+    ],
+    [
+     "lt",
+     "ripley",
+     "smart gun"
+    ]
+   ],
+   "not": [
+    "amanda",
+    "compression",
+    "jumpsuit",
+    "35th"
+   ]
   },
   {
    "id": "alien-ripley",
@@ -5551,6 +5931,10 @@
     [
      "vasquez",
      "series 12"
+    ],
+    [
+     "vasquez",
+     "bdus"
     ]
    ],
    "not": []
@@ -6126,6 +6510,9 @@
      "alien",
      "40th",
      "ultimate"
+    ],
+    [
+     "51646"
     ]
    ],
    "not": []
@@ -6153,7 +6540,9 @@
     ]
    ],
    "not": [
-    "aliens"
+    "warrior",
+    "blue",
+    "brown"
    ]
   },
   {
@@ -6280,6 +6669,9 @@
      "alien",
      "40th anniversary",
      "7"
+    ],
+    [
+     "giger"
     ]
    ],
    "not": [
@@ -6290,7 +6682,6 @@
     "parker",
     "ash",
     "brett",
-    "facehugger",
     "chestburster",
     "egg",
     "space jockey",
@@ -6450,6 +6841,15 @@
     [
      "aliens",
      "arcade"
+    ],
+    [
+     "warrior",
+     "video game"
+    ],
+    [
+     "aliens",
+     "video game",
+     "warrior"
     ]
    ],
    "not": []
@@ -6500,6 +6900,9 @@
     [
      "blue",
      "alien"
+    ],
+    [
+     "51647"
     ]
    ],
    "not": [
@@ -6529,6 +6932,9 @@
     [
      "brown",
      "alien"
+    ],
+    [
+     "51683"
     ]
    ],
    "not": [
@@ -6570,6 +6976,43 @@
     "alien 3",
     "40th"
    ]
+  },
+  {
+   "id": "alien-warrior-2009",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Aliens (1986)",
+   "name": "Aliens Xenomorph Warrior (original 2008 to 2009 release)",
+   "match": [
+    [
+     "warrior",
+     "2008"
+    ],
+    [
+     "warrior",
+     "2009"
+    ],
+    [
+     "xenomorph",
+     "2009",
+     "aliens"
+    ],
+    [
+     "aliens",
+     "2009"
+    ],
+    [
+     "aliens",
+     "2008"
+    ],
+    [
+     "xenomorph",
+     "2008",
+     "aliens"
+    ]
+   ],
+   "not": []
   },
   {
    "id": "alien-warrior-2013",

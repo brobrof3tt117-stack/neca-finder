@@ -13,8 +13,7 @@
     "Prometheus, Covenant, Romulus and Earth",
     "Kenner Tribute creatures",
     "Alien vs. Predator",
-    "Video games",
-    "Everything else"
+    "Video games"
    ]
   },
   {
@@ -28,8 +27,7 @@
     "Alien vs. Predator",
     "Predators (2010) and The Predator (2018)",
     "Prey and Badlands",
-    "Games, comics and concepts",
-    "Everything else"
+    "Games, comics and concepts"
    ]
   },
   {
@@ -40,8 +38,7 @@
    "sections": [
     "RoboCop (1987)",
     "RoboCop 2 and 3",
-    "Video games",
-    "Everything else"
+    "Video games"
    ]
   },
   {
@@ -53,8 +50,7 @@
     "The Terminator (1984)",
     "Terminator 2: Judgment Day (1991)",
     "Later films",
-    "Video games",
-    "Everything else"
+    "Video games"
    ]
   },
   {
@@ -63,8 +59,7 @@
    "title": "The Thing (1982)",
    "tagline": "John Carpenter's The Thing, Outpost 31",
    "sections": [
-    "The Thing (1982)",
-    "Everything else"
+    "The Thing (1982)"
    ]
   },
   {
@@ -73,8 +68,7 @@
    "title": "Escape From New York",
    "tagline": "Snake Plissken, Manhattan 1997",
    "sections": [
-    "Escape From New York (1981)",
-    "Everything else"
+    "Escape From New York (1981)"
    ]
   }
  ],
@@ -1663,7 +1657,9 @@
      "5"
     ]
    ],
-   "not": []
+   "not": [
+    "neomorph"
+   ]
   },
   {
    "id": "pred-batman",
@@ -2404,7 +2400,11 @@
      "bear"
     ]
    ],
-   "not": []
+   "not": [
+    "2 pack",
+    "toys r us",
+    "two pack"
+   ]
   },
   {
    "id": "pred-feral-camo",
@@ -2422,7 +2422,11 @@
      "camo"
     ]
    ],
-   "not": []
+   "not": [
+    "2 pack",
+    "toys r us",
+    "two pack"
+   ]
   },
   {
    "id": "pred-feral-ultramate",
@@ -2436,7 +2440,11 @@
      "ultramate"
     ]
    ],
-   "not": []
+   "not": [
+    "2 pack",
+    "toys r us",
+    "two pack"
+   ]
   },
   {
    "id": "pred-feral",
@@ -2464,7 +2472,11 @@
      "ultimate"
     ]
    ],
-   "not": []
+   "not": [
+    "2 pack",
+    "toys r us",
+    "two pack"
+   ]
   },
   {
    "id": "pred-dek-bone",
@@ -7110,72 +7122,6 @@
     ]
    ],
    "not": []
-  },
-  {
-   "id": "alien-other",
-   "tabs": [
-    "alien"
-   ],
-   "section": "Everything else",
-   "name": "Other Alien figures",
-   "match": [],
-   "not": [],
-   "other": true
-  },
-  {
-   "id": "predator-other",
-   "tabs": [
-    "predator"
-   ],
-   "section": "Everything else",
-   "name": "Other Predator figures",
-   "match": [],
-   "not": [],
-   "other": true
-  },
-  {
-   "id": "robocop-other",
-   "tabs": [
-    "robocop"
-   ],
-   "section": "Everything else",
-   "name": "Other RoboCop figures",
-   "match": [],
-   "not": [],
-   "other": true
-  },
-  {
-   "id": "terminator-other",
-   "tabs": [
-    "terminator"
-   ],
-   "section": "Everything else",
-   "name": "Other Terminator figures",
-   "match": [],
-   "not": [],
-   "other": true
-  },
-  {
-   "id": "thing-other",
-   "tabs": [
-    "thing"
-   ],
-   "section": "Everything else",
-   "name": "Other The Thing figures",
-   "match": [],
-   "not": [],
-   "other": true
-  },
-  {
-   "id": "efny-other",
-   "tabs": [
-    "efny"
-   ],
-   "section": "Everything else",
-   "name": "Other Escape From New York figures",
-   "match": [],
-   "not": [],
-   "other": true
   }
  ],
  "tab_words": [

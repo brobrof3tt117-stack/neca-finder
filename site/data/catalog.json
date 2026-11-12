@@ -1544,13 +1544,6 @@
      "predator classics"
     ],
     [
-     "classics",
-     "retro"
-    ],
-    [
-     "kenner retro"
-    ],
-    [
      "retro style",
      "5"
     ]
@@ -1702,7 +1695,11 @@
      "big red"
     ]
    ],
-   "not": []
+   "not": [
+    "lambert",
+    "alien",
+    "aliens"
+   ]
   },
   {
    "id": "pred-bladefighter",
@@ -3743,16 +3740,16 @@
    "match": [
     [
      "classic predator"
-    ],
-    [
-     "classic",
-     "predator"
     ]
    ],
    "not": [
     "predator 2",
     "video game",
-    "8 bit"
+    "8 bit",
+    "jungle hunter",
+    "jungle",
+    "1 4",
+    "quarter"
    ]
   },
   {
@@ -6402,6 +6399,8 @@
     "warrior predator",
     "predator warrior",
     "thermal",
+    "therman",
+    "glow",
     "dutch",
     "linn",
     "razor",

@@ -129,8 +129,7 @@ def matches_any(pad, alternatives):
 # ===== matching a title to a figure =====
 
 def match_figure(title, catalog):
-    """Returns the first catalog figure the title fits, or the 'Everything else' figure
-    of the right tab, or None if it fits no tab at all."""
+    """Returns the first catalog figure the title fits, or None if the title names no figure."""
     pad = padded(title)
     tabs_ok = {rule["tab"] for rule in catalog["tab_words"] if matches_any(pad, rule["match"])}
     for fig in catalog["figures"]:
@@ -142,16 +141,8 @@ def match_figure(title, catalog):
             continue
         if matches_any(pad, fig["match"]):
             return fig
-    # No named figure. Find which tab it belongs to, ignoring "alien vs predator" so
-    # an AvP alien is not filed under Predator just because the line's name says so.
-    check = pad
-    for p in ("aliens vs predator", "alien vs predator", "avp", "avpr"):
-        check = check.replace(f" {normalize(p)} ", " ")
-    for rule in catalog["tab_words"]:
-        if matches_any(check, rule["match"]):
-            return catalog["by_id"][rule["tab"] + "-other"]
-    if " avp " in pad or " avpr " in pad or has(pad, "alien vs predator") or has(pad, "aliens vs predator"):
-        return catalog["by_id"]["alien-other"]
+    # No named figure: the title never says which figure it is, so it is left out rather
+    # than dumped in a catch-all tile.
     return None
 
 

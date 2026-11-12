@@ -3223,7 +3223,9 @@
      "xx121"
     ]
    ],
-   "not": []
+   "not": [
+    "ripley"
+   ]
   },
   {
    "id": "alien-neomorph",
@@ -3925,16 +3927,113 @@
    "not": []
   },
   {
+   "id": "alien-ripley-jumpsuit-40th",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien (1979)",
+   "name": "Ripley (Jumpsuit, 40th Anniversary Wave 1, 2020)",
+   "match": [
+    [
+     "ripley",
+     "jumpsuit",
+     "40th"
+    ],
+    [
+     "ripley",
+     "40th",
+     "wave 1"
+    ],
+    [
+     "ripley",
+     "40th",
+     "series 1"
+    ]
+   ],
+   "not": [
+    "amanda",
+    "aliens 1986",
+    "aliens 40th",
+    "lt"
+   ]
+  },
+  {
+   "id": "alien-ripley-compression-40th",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien (1979)",
+   "name": "Ripley (Compression Suit, 40th Anniversary Wave 4, 2021)",
+   "match": [
+    [
+     "ripley",
+     "compression",
+     "40th"
+    ],
+    [
+     "ripley",
+     "40th",
+     "wave 4"
+    ],
+    [
+     "ripley",
+     "40th",
+     "series 4"
+    ],
+    [
+     "ripley",
+     "spacesuit",
+     "40th"
+    ],
+    [
+     "ripley",
+     "space suit",
+     "40th"
+    ]
+   ],
+   "not": [
+    "amanda",
+    "2015",
+    "35th"
+   ]
+  },
+  {
    "id": "alien-ripley-compression",
    "tabs": [
     "alien"
    ],
    "section": "Alien (1979)",
-   "name": "Ripley (Compression Suit)",
+   "name": "Ripley (Compression Suit, Series 4, 2015)",
    "match": [
     [
      "ripley",
-     "compression"
+     "compression",
+     "2015"
+    ],
+    [
+     "ripley",
+     "compression",
+     "35th"
+    ],
+    [
+     "ripley",
+     "compression",
+     "series 4"
+    ],
+    [
+     "ripley",
+     "spacesuit",
+     "series 4"
+    ],
+    [
+     "ripley",
+     "space suit",
+     "series 4"
+    ],
+    [
+     "ripley",
+     "series 4",
+     "nostromo"
     ]
    ],
    "not": [
@@ -3947,19 +4046,95 @@
     "alien"
    ],
    "section": "Alien (1979)",
-   "name": "Ripley (Jumpsuit, 40th Anniversary)",
+   "name": "Ripley (Jumpsuit, Series 4, 2015)",
    "match": [
+    [
+     "ripley",
+     "jumpsuit",
+     "2015"
+    ],
+    [
+     "ripley",
+     "jumpsuit",
+     "35th"
+    ],
+    [
+     "ripley",
+     "jumpsuit",
+     "series 4"
+    ]
+   ],
+   "not": [
+    "amanda",
+    "aliens 1986",
+    "aliens 40th",
+    "lt"
+   ]
+  },
+  {
+   "id": "alien-ripley-1979",
+   "tabs": [
+    "alien"
+   ],
+   "section": "Alien (1979)",
+   "name": "Ripley (Alien 1979, year not in title)",
+   "match": [
+    [
+     "ripley",
+     "compression"
+    ],
     [
      "ripley",
      "jumpsuit"
     ],
     [
      "ripley",
+     "spacesuit"
+    ],
+    [
+     "ripley",
+     "space suit"
+    ],
+    [
+     "ripley",
      "40th"
+    ],
+    [
+     "ripley",
+     "35th"
+    ],
+    [
+     "ripley",
+     "series 4"
+    ],
+    [
+     "ripley",
+     "alien 1979"
+    ],
+    [
+     "ripley",
+     "nostromo"
+    ],
+    [
+     "ripley",
+     "jonesy"
+    ],
+    [
+     "ripley",
+     "flamethrower"
     ]
    ],
    "not": [
-    "amanda"
+    "amanda",
+    "aliens 1986",
+    "aliens 40th",
+    "lt",
+    "space marine",
+    "marine",
+    "newt",
+    "power loader",
+    "bomber",
+    "kenner"
    ]
   },
   {
@@ -3998,7 +4173,7 @@
     "alien"
    ],
    "section": "Aliens (1986)",
-   "name": "Ellen Ripley (other releases)",
+   "name": "Lt. Ripley (Aliens, other releases)",
    "match": [
     [
      "ripley"

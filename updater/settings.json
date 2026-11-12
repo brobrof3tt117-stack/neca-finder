@@ -44,7 +44,7 @@
   "_hide_pairs_help": "A title is hidden when it has BOTH words of any pair. These catch sellers' bundles of two different figures.",
   "hide_pairs": [
     ["outpost", "last stand"], ["outpost", "station survival"], ["last stand", "station survival"],
-    ["predator", "terminator"], ["ripley", "bishop"], ["only", "accessory"], ["only", "torch"], ["only", "weapon"], ["only", "mask"], ["only", "gun"], ["only", "head"], ["ripley", "vasquez"], ["ripley", "drake"], ["ripley", "power loader"], ["ripley", "queen"], ["big chap", "ultimate warrior"], ["creature pk", "weapon pk"], ["predator", "robocop"], ["alien", "robocop"], ["predator", "macready"], ["alien", "terminator"]
+    ["predator", "terminator"], ["ripley", "bishop"], ["dutch", "falconer"], ["dutch", "lava planet"], ["only", "accessory"], ["only", "torch"], ["only", "weapon"], ["only", "mask"], ["only", "gun"], ["only", "head"], ["ripley", "vasquez"], ["ripley", "drake"], ["ripley", "power loader"], ["ripley", "queen"], ["big chap", "ultimate warrior"], ["creature pk", "weapon pk"], ["predator", "robocop"], ["alien", "robocop"], ["predator", "macready"], ["alien", "terminator"]
   ],
 
   "_box_warning_help": "Listings that mention these words still show up (the figure is still sealed) but get a yellow 'box damage mentioned' tag.",

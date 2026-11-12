@@ -13,18 +13,18 @@ from pathlib import Path
 TABS = [
     {"id": "alien", "name": "Alien", "title": "Alien", "tagline": "Xenomorphs, Colonial Marines and the Nostromo crew",
      "sections": ["Alien (1979)", "Aliens (1986)", "Alien 3, Resurrection and Isolation", "Prometheus, Covenant, Romulus and Earth",
-                  "Kenner Tribute creatures", "Alien vs. Predator", "Video games", "Everything else"]},
+                  "Kenner Tribute creatures", "Alien vs. Predator", "Video games"]},
     {"id": "predator", "name": "Predator", "title": "Predator", "tagline": "Every hunter NECA has made, from the jungle to the Badlands",
      "sections": ["Predator (1987)", "Predator 2 (1990)", "Alien vs. Predator", "Predators (2010) and The Predator (2018)",
-                  "Prey and Badlands", "Games, comics and concepts", "Everything else"]},
+                  "Prey and Badlands", "Games, comics and concepts"]},
     {"id": "robocop", "name": "RoboCop", "title": "RoboCop", "tagline": "Dead or alive, you're coming with me",
-     "sections": ["RoboCop (1987)", "RoboCop 2 and 3", "Video games", "Everything else"]},
+     "sections": ["RoboCop (1987)", "RoboCop 2 and 3", "Video games"]},
     {"id": "terminator", "name": "Terminator", "title": "Terminator", "tagline": "T-800s, T-1000s and the Connors",
-     "sections": ["The Terminator (1984)", "Terminator 2: Judgment Day (1991)", "Later films", "Video games", "Everything else"]},
+     "sections": ["The Terminator (1984)", "Terminator 2: Judgment Day (1991)", "Later films", "Video games"]},
     {"id": "thing", "name": "The Thing", "title": "The Thing (1982)", "tagline": "John Carpenter's The Thing, Outpost 31",
-     "sections": ["The Thing (1982)", "Everything else"]},
+     "sections": ["The Thing (1982)"]},
     {"id": "efny", "name": "Escape From New York", "title": "Escape From New York", "tagline": "Snake Plissken, Manhattan 1997",
-     "sections": ["Escape From New York (1981)", "Everything else"]},
+     "sections": ["Escape From New York (1981)"]},
 ]
 
 NOT_ADDAMS = "addams,wednesday,fantastic four,marvel"
@@ -110,7 +110,7 @@ FIGURES = [
     ("robo-classic", "robocop", "RoboCop (1987)", "RoboCop (2011 original release)", "robocop+2011|robocop+25th|robocop+first series|robocop+2012|robocop+reel toys+2012", ""),
 
     # ===== Predator =====
-    ("pred-classics-retro", P, "Games, comics and concepts", "Predator Classics (5.5-inch retro Kenner-style line)", "5 5|predator classics|retro style+5", ""),
+    ("pred-classics-retro", P, "Games, comics and concepts", "Predator Classics (5.5-inch retro Kenner-style line)", "5 5|predator classics|retro style+5", "neomorph"),
     ("pred-batman", P, "Games, comics and concepts", "Batman vs. Predator (2-pack)", "batman+predator", ""),
     ("pred-2pack-tru", P, "Predator 2 (1990)", "Toys R Us 2-packs (City Hunter with Jungle Hunter or Berserker)", "city hunter+jungle hunter|city hunter+berserker|city hunter+2 pack|city hunter+toys r us", ""),
     ("pred-dc", P, "Games, comics and concepts", "Green Lantern vs. Predator (DC 2-pack)", "green lantern|sinestro", ""),
@@ -147,10 +147,10 @@ FIGURES = [
     ("pred-city-s4", P, "Predator 2 (1990)", "City Hunter (Series 4, 2011, unmasked)", "city hunter+series 4|city hunter+ser 4|city hunter+2010|city hunter+2011|city hunter+unmasked|city hunter+maskless", ""),
     ("pred-city", P, "Predator 2 (1990)", "City Hunter (version not in title)", "city hunter|predator 2+city|51549", ""),
     ("pred-alpha", P, "Games, comics and concepts", "Alpha Predator (100th Edition)", "alpha+predator|100th", ""),
-    ("pred-feral-bear", P, "Prey and Badlands", "Ultimate Feral Predator (Bear Blood)", "bear blood|feral+bear", ""),
-    ("pred-feral-camo", P, "Prey and Badlands", "Feral Predator (Camo Reveal)", "camo reveal|feral+camo", ""),
-    ("pred-feral-ultramate", P, "Prey and Badlands", "ULTRAmate Feral Predator", "ultramate", ""),
-    ("pred-feral", P, "Prey and Badlands", "Ultimate Feral Predator (Prey)", "feral|ferel|camo reveal|prey+predator|prey+ultimate", ""),
+    ("pred-feral-bear", P, "Prey and Badlands", "Ultimate Feral Predator (Bear Blood)", "bear blood|feral+bear", "2 pack,toys r us,two pack"),
+    ("pred-feral-camo", P, "Prey and Badlands", "Feral Predator (Camo Reveal)", "camo reveal|feral+camo", "2 pack,toys r us,two pack"),
+    ("pred-feral-ultramate", P, "Prey and Badlands", "ULTRAmate Feral Predator", "ultramate", "2 pack,toys r us,two pack"),
+    ("pred-feral", P, "Prey and Badlands", "Ultimate Feral Predator (Prey)", "feral|ferel|camo reveal|prey+predator|prey+ultimate", "2 pack,toys r us,two pack"),
     ("pred-dek-bone", P, "Prey and Badlands", "Ultimate Dek (Bone Bison Armor)", "dek+bone|dek+bison", "kwei"),
     ("pred-dek-training", P, "Prey and Badlands", "Ultimate Dek (Training Armor)", "dek+training", "kwei"),
     ("pred-dek", P, "Prey and Badlands", "Dek (other releases)", "dek", "kwei"),
@@ -373,7 +373,7 @@ FIGURES = [
     ("alien-warrior", "alien", "Aliens (1986)", "Xenomorph Warrior (other releases)", "aliens+ultimate edition|aliens+warrior|aliens+xenomorph|alien+warrior|aliens+40th|aliens+1986|blue+warrior|brown+warrior", ""),
 ]
 
-# Anything that passes every check but matches no figure lands in the "Everything else" tile of its tab.
+# Not used any more: listings that name no figure are left out instead of going to a catch-all tile.
 OTHER = {
     "alien": "Other Alien figures",
     "predator": "Other Predator figures",
@@ -416,9 +416,6 @@ def main():
             "id": fid, "tabs": tabs, "section": section, "name": name,
             "match": alts(match), "not": [n.strip() for n in nots.split(",") if n.strip()],
         })
-    for tid, name in OTHER.items():
-        figures.append({"id": tid + "-other", "tabs": [tid], "section": "Everything else", "name": name,
-                        "match": [], "not": [], "other": True})
     out = {
         "_read_me": "Made by tools/build_catalog.py. Edit that file and run it, rather than editing this one by hand.",
         "tabs": TABS,

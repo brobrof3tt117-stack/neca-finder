@@ -11,9 +11,9 @@
     "Aliens (1986)",
     "Alien 3, Resurrection and Isolation",
     "Prometheus, Covenant, Romulus and Earth",
-    "Kenner Tribute creatures",
     "Alien vs. Predator",
-    "Video games"
+    "Video games",
+    "Kenner Tribute remakes"
    ]
   },
   {
@@ -27,7 +27,8 @@
     "Alien vs. Predator",
     "Predators (2010) and The Predator (2018)",
     "Prey and Badlands",
-    "Games, comics and concepts"
+    "Games, comics and concepts",
+    "Kenner Tribute remakes"
    ]
   },
   {
@@ -50,7 +51,8 @@
     "The Terminator (1984)",
     "Terminator 2: Judgment Day (1991)",
     "Later films",
-    "Video games"
+    "Video games",
+    "Kenner Tribute remakes"
    ]
   },
   {
@@ -658,7 +660,7 @@
    "tabs": [
     "terminator"
    ],
-   "section": "Terminator 2: Judgment Day (1991)",
+   "section": "Kenner Tribute remakes",
    "name": "Future War Metal Mash Endoskeleton (Kenner Tribute)",
    "match": [
     [
@@ -809,7 +811,7 @@
    "tabs": [
     "terminator"
    ],
-   "section": "Terminator 2: Judgment Day (1991)",
+   "section": "Kenner Tribute remakes",
    "name": "T-1000 White Hot (Kenner Tribute)",
    "match": [
     [
@@ -1138,7 +1140,7 @@
    "tabs": [
     "terminator"
    ],
-   "section": "Terminator 2: Judgment Day (1991)",
+   "section": "Kenner Tribute remakes",
    "name": "T-800 Power Arm (Kenner Tribute)",
    "match": [
     [
@@ -1230,26 +1232,6 @@
    ]
   },
   {
-   "id": "term-t800-technoir",
-   "tabs": [
-    "terminator"
-   ],
-   "section": "The Terminator (1984)",
-   "name": "Ultimate T-800 (Tech Noir)",
-   "match": [
-    [
-     "tech noir"
-    ],
-    [
-     "tech nior"
-    ]
-   ],
-   "not": [
-    "predator",
-    "dutch"
-   ]
-  },
-  {
    "id": "term-t800-police",
    "tabs": [
     "terminator"
@@ -1310,13 +1292,19 @@
    ]
   },
   {
-   "id": "term-t800-ultimate",
+   "id": "term-t800-technoir",
    "tabs": [
     "terminator"
    ],
    "section": "The Terminator (1984)",
-   "name": "Ultimate T-800 (The Terminator, 2015)",
+   "name": "Ultimate T-800 (Tech Noir, 2015, reissued 2025)",
    "match": [
+    [
+     "tech noir"
+    ],
+    [
+     "tech nior"
+    ],
     [
      "ultimate",
      "t 800"
@@ -1342,20 +1330,26 @@
     ]
    ],
    "not": [
-    "terminator 2",
-    "t2",
-    "judgment",
-    "endoskeleton",
-    "predator",
-    "dutch",
-    "tech noir",
-    "tech nior",
-    "police",
-    "tanker",
+    "8 bit",
     "battle damaged",
+    "club",
+    "dutch",
+    "endoskeleton",
+    "judgment",
+    "police",
+    "predator",
+    "t2",
+    "tanker",
+    "terminator 2",
+    "video game",
+    "police station",
+    "tanker",
     "video game",
     "8 bit",
-    "club"
+    "endoskeleton",
+    "terminator 2",
+    "t2",
+    "judgment"
    ]
   },
   {
@@ -1559,11 +1553,32 @@
     "robocop"
    ],
    "section": "RoboCop (1987)",
-   "name": "RoboCop with Spring Loaded Holster",
+   "name": "RoboCop (25th Anniversary, spring-loaded holster)",
    "match": [
     [
      "robocop",
      "holster"
+    ],
+    [
+     "robocop",
+     "2011"
+    ],
+    [
+     "robocop",
+     "25th"
+    ],
+    [
+     "robocop",
+     "first series"
+    ],
+    [
+     "robocop",
+     "2012"
+    ],
+    [
+     "robocop",
+     "reel toys",
+     "2012"
     ]
    ],
    "not": []
@@ -1607,43 +1622,11 @@
    "not": []
   },
   {
-   "id": "robo-classic",
-   "tabs": [
-    "robocop"
-   ],
-   "section": "RoboCop (1987)",
-   "name": "RoboCop (2011 original release)",
-   "match": [
-    [
-     "robocop",
-     "2011"
-    ],
-    [
-     "robocop",
-     "25th"
-    ],
-    [
-     "robocop",
-     "first series"
-    ],
-    [
-     "robocop",
-     "2012"
-    ],
-    [
-     "robocop",
-     "reel toys",
-     "2012"
-    ]
-   ],
-   "not": []
-  },
-  {
    "id": "pred-classics-retro",
    "tabs": [
     "predator"
    ],
-   "section": "Games, comics and concepts",
+   "section": "Kenner Tribute remakes",
    "name": "Predator Classics (5.5-inch retro Kenner-style line)",
    "match": [
     [
@@ -1817,8 +1800,8 @@
    "tabs": [
     "predator"
    ],
-   "section": "Games, comics and concepts",
-   "name": "Blade Fighter Vehicle",
+   "section": "Kenner Tribute remakes",
+   "name": "Blade Fighter Vehicle (Kenner Tribute)",
    "match": [
     [
      "blade fighter"
@@ -1986,21 +1969,6 @@
     [
      "dutch",
      "quarter"
-    ]
-   ],
-   "not": []
-  },
-  {
-   "id": "pred-dutch-lava",
-   "tabs": [
-    "predator"
-   ],
-   "section": "Predator (1987)",
-   "name": "Dutch (Lava Planet)",
-   "match": [
-    [
-     "dutch",
-     "lava"
     ]
    ],
    "not": []
@@ -2617,8 +2585,8 @@
    "tabs": [
     "predator"
    ],
-   "section": "Games, comics and concepts",
-   "name": "Clan Leader Predator (Concrete Jungle)",
+   "section": "Kenner Tribute remakes",
+   "name": "Clan Leader Predator (Kenner Tribute Deluxe)",
    "match": [
     [
      "clan leader"
@@ -2704,7 +2672,7 @@
    "tabs": [
     "predator"
    ],
-   "section": "Games, comics and concepts",
+   "section": "Kenner Tribute remakes",
    "name": "Lasershot Predator (Ultimate Alien Hunter, Kenner Tribute)",
    "match": [
     [
@@ -3061,65 +3029,6 @@
    ]
   },
   {
-   "id": "pred-elder-golden",
-   "tabs": [
-    "predator"
-   ],
-   "section": "Predator 2 (1990)",
-   "name": "Elder: The Golden Angel",
-   "match": [
-    [
-     "golden angel"
-    ],
-    [
-     "elder",
-     "golden"
-    ]
-   ],
-   "not": []
-  },
-  {
-   "id": "pred-elder-greyback",
-   "tabs": [
-    "predator"
-   ],
-   "section": "Predator 2 (1990)",
-   "name": "Elder Greyback (Predator 2)",
-   "match": [
-    [
-     "greyback"
-    ],
-    [
-     "predator 2",
-     "elder"
-    ]
-   ],
-   "not": []
-  },
-  {
-   "id": "pred-elder-avp",
-   "tabs": [
-    "predator"
-   ],
-   "section": "Alien vs. Predator",
-   "name": "Elder Predator (AvP)",
-   "match": [
-    [
-     "elder",
-     "avp"
-    ],
-    [
-     "elder",
-     "alien vs predator"
-    ],
-    [
-     "elder",
-     "series 17"
-    ]
-   ],
-   "not": []
-  },
-  {
    "id": "pred-elder-v2",
    "tabs": [
     "predator"
@@ -3160,6 +3069,86 @@
     ]
    ],
    "not": []
+  },
+  {
+   "id": "pred-elder-golden",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "Elder: The Golden Angel",
+   "match": [
+    [
+     "golden angel"
+    ],
+    [
+     "elder",
+     "golden"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-elder-greyback",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Predator 2 (1990)",
+   "name": "Ultimate Elder Predator (Greyback, Predator 2 30th Anniversary)",
+   "match": [
+    [
+     "greyback"
+    ],
+    [
+     "elder",
+     "ultimate"
+    ],
+    [
+     "ultimate elder"
+    ]
+   ],
+   "not": [
+    "golden angel",
+    "1718",
+    "v2",
+    "series 12",
+    "series 3"
+   ]
+  },
+  {
+   "id": "pred-elder-avp",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Alien vs. Predator",
+   "name": "Elder Predator (AvP)",
+   "match": [
+    [
+     "elder",
+     "series 17"
+    ],
+    [
+     "elder",
+     "avp",
+     "2017"
+    ],
+    [
+     "elder",
+     "alien vs predator",
+     "2017"
+    ],
+    [
+     "elder",
+     "avp",
+     "series"
+    ]
+   ],
+   "not": [
+    "series 3",
+    "2011",
+    "ultimate",
+    "predator 2"
+   ]
   },
   {
    "id": "pred-elder",
@@ -3299,6 +3288,33 @@
    "match": [
     [
      "boar"
+    ]
+   ],
+   "not": []
+  },
+  {
+   "id": "pred-stalker-kenner",
+   "tabs": [
+    "predator"
+   ],
+   "section": "Kenner Tribute remakes",
+   "name": "Stalker Predator (Kenner Tribute, glow in the dark, Series 16)",
+   "match": [
+    [
+     "stalker",
+     "glow"
+    ],
+    [
+     "stalker",
+     "kenner"
+    ],
+    [
+     "stalker",
+     "series 16"
+    ],
+    [
+     "stalker",
+     "gitd"
     ]
    ],
    "not": []
@@ -3548,7 +3564,7 @@
    "tabs": [
     "predator"
    ],
-   "section": "Games, comics and concepts",
+   "section": "Kenner Tribute remakes",
    "name": "Nightstorm Predator (Kenner Tribute)",
    "match": [
     [
@@ -3565,7 +3581,7 @@
    "tabs": [
     "predator"
    ],
-   "section": "Games, comics and concepts",
+   "section": "Kenner Tribute remakes",
    "name": "Scavage Predator (Kenner Tribute)",
    "match": [
     [
@@ -3624,8 +3640,8 @@
    "tabs": [
     "predator"
    ],
-   "section": "Games, comics and concepts",
-   "name": "Cracked Tusk Predator",
+   "section": "Kenner Tribute remakes",
+   "name": "Cracked Tusk Predator (Kenner Tribute)",
    "match": [
     [
      "cracked tusk"
@@ -3638,8 +3654,8 @@
    "tabs": [
     "predator"
    ],
-   "section": "Games, comics and concepts",
-   "name": "Spiked Tail Predator",
+   "section": "Kenner Tribute remakes",
+   "name": "Spiked Tail Predator (Kenner Tribute)",
    "match": [
     [
      "spiked tail"
@@ -3711,8 +3727,8 @@
    "tabs": [
     "predator"
    ],
-   "section": "Games, comics and concepts",
-   "name": "Renegade Predator",
+   "section": "Kenner Tribute remakes",
+   "name": "Renegade Predator (Kenner Tribute)",
    "match": [
     [
      "renegade"
@@ -3725,8 +3741,8 @@
    "tabs": [
     "predator"
    ],
-   "section": "Games, comics and concepts",
-   "name": "Hive Wars Predator",
+   "section": "Kenner Tribute remakes",
+   "name": "Hive Wars Predator (Kenner Tribute)",
    "match": [
     [
      "hive wars"
@@ -3739,8 +3755,8 @@
    "tabs": [
     "predator"
    ],
-   "section": "Games, comics and concepts",
-   "name": "Lava Planet Predator",
+   "section": "Kenner Tribute remakes",
+   "name": "Lava Planet Predator (Kenner Tribute)",
    "match": [
     [
      "lava planet"
@@ -3753,8 +3769,8 @@
    "tabs": [
     "predator"
    ],
-   "section": "Games, comics and concepts",
-   "name": "Water Emergence Predator",
+   "section": "Predator (1987)",
+   "name": "Jungle Hunter (Water Emergence, Series 9)",
    "match": [
     [
      "water emergence"
@@ -3825,8 +3841,8 @@
    "tabs": [
     "predator"
    ],
-   "section": "Games, comics and concepts",
-   "name": "Ambush Predator",
+   "section": "Kenner Tribute remakes",
+   "name": "Ambush Predator (Kenner Tribute)",
    "match": [
     [
      "ambush"
@@ -3858,13 +3874,51 @@
    "not": []
   },
   {
+   "id": "pred-avp2pack-kenner",
+   "tabs": [
+    "predator",
+    "alien"
+   ],
+   "section": "Kenner Tribute remakes",
+   "name": "Alien vs. Predator 2-pack (Kenner Tribute, Toys R Us 2015)",
+   "match": [
+    [
+     "ultimate battle"
+    ],
+    [
+     "vs predator",
+     "kenner"
+    ],
+    [
+     "vs predator",
+     "tribute"
+    ],
+    [
+     "vs predator",
+     "retro"
+    ],
+    [
+     "vs predator",
+     "2015"
+    ],
+    [
+     "vs predator",
+     "homage"
+    ]
+   ],
+   "not": [
+    "battle damaged",
+    "battle damage"
+   ]
+  },
+  {
    "id": "pred-avp2pack",
    "tabs": [
     "predator",
     "alien"
    ],
    "section": "Alien vs. Predator",
-   "name": "Alien vs. Predator 2-packs (Toys R Us)",
+   "name": "Alien vs. Predator 2-pack (Toys R Us 2010)",
    "match": [
     [
      "vs predator",
@@ -4026,7 +4080,7 @@
     "predator"
    ],
    "section": "Predator (1987)",
-   "name": "Jungle Hunter Prototype Mask (30th Anniversary)",
+   "name": "Jungle Hunter (30th Anniversary, masked with prototype mask)",
    "match": [
     [
      "prototype mask"
@@ -4034,11 +4088,24 @@
     [
      "jungle hunter",
      "prototype"
+    ],
+    [
+     "jungle hunter",
+     "30th",
+     "masked"
+    ],
+    [
+     "jungle",
+     "30th"
     ]
    ],
    "not": [
     "predator 2",
-    "city"
+    "city",
+    "ultimate",
+    "unmasked",
+    "demon",
+    "dutch"
    ]
   },
   {
@@ -4068,7 +4135,7 @@
    "tabs": [
     "predator"
    ],
-   "section": "Games, comics and concepts",
+   "section": "Kenner Tribute remakes",
    "name": "Ultimate Alien Hunter (Kenner Tribute, 2015 convention exclusive)",
    "match": [
     [
@@ -4182,28 +4249,6 @@
    ]
   },
   {
-   "id": "pred-jungle-30th",
-   "tabs": [
-    "predator"
-   ],
-   "section": "Predator (1987)",
-   "name": "Jungle Hunter (30th Anniversary)",
-   "match": [
-    [
-     "jungle hunter",
-     "30th"
-    ],
-    [
-     "jungle",
-     "30th"
-    ]
-   ],
-   "not": [
-    "predator 2",
-    "dutch"
-   ]
-  },
-  {
    "id": "pred-jungle",
    "tabs": [
     "predator"
@@ -4237,7 +4282,7 @@
    "tabs": [
     "alien"
    ],
-   "section": "Video games",
+   "section": "Kenner Tribute remakes",
    "name": "Alien Classics (5.5-inch retro Kenner-style line)",
    "match": [
     [
@@ -4280,8 +4325,8 @@
    "tabs": [
     "alien"
    ],
-   "section": "Aliens (1986)",
-   "name": "Purple Warrior Alien (Club exclusive)",
+   "section": "Kenner Tribute remakes",
+   "name": "Purple Warrior Alien (Kenner Tribute, Club exclusive)",
    "match": [
     [
      "purple"
@@ -5370,7 +5415,7 @@
    "tabs": [
     "alien"
    ],
-   "section": "Kenner Tribute creatures",
+   "section": "Kenner Tribute remakes",
    "name": "Panther Alien",
    "match": [
     [
@@ -5393,7 +5438,7 @@
    "tabs": [
     "alien"
    ],
-   "section": "Kenner Tribute creatures",
+   "section": "Kenner Tribute remakes",
    "name": "Night Cougar Alien",
    "match": [
     [
@@ -5411,7 +5456,7 @@
    "tabs": [
     "alien"
    ],
-   "section": "Kenner Tribute creatures",
+   "section": "Kenner Tribute remakes",
    "name": "Rhino Alien",
    "match": [
     [
@@ -5425,7 +5470,7 @@
    "tabs": [
     "alien"
    ],
-   "section": "Kenner Tribute creatures",
+   "section": "Kenner Tribute remakes",
    "name": "Gorilla Alien",
    "match": [
     [
@@ -5439,7 +5484,7 @@
    "tabs": [
     "alien"
    ],
-   "section": "Kenner Tribute creatures",
+   "section": "Kenner Tribute remakes",
    "name": "Snake Alien",
    "match": [
     [
@@ -5459,7 +5504,7 @@
    "tabs": [
     "alien"
    ],
-   "section": "Kenner Tribute creatures",
+   "section": "Kenner Tribute remakes",
    "name": "Scorpion Alien",
    "match": [
     [
@@ -5473,7 +5518,7 @@
    "tabs": [
     "alien"
    ],
-   "section": "Kenner Tribute creatures",
+   "section": "Kenner Tribute remakes",
    "name": "Mantis Alien",
    "match": [
     [
@@ -5487,7 +5532,7 @@
    "tabs": [
     "alien"
    ],
-   "section": "Kenner Tribute creatures",
+   "section": "Kenner Tribute remakes",
    "name": "Queen Facehugger",
    "match": [
     [
@@ -5749,8 +5794,8 @@
    "tabs": [
     "alien"
    ],
-   "section": "Aliens (1986)",
-   "name": "Ripley (Kenner Tribute)",
+   "section": "Kenner Tribute remakes",
+   "name": "Space Marine Lt. Ripley (Kenner Tribute)",
    "match": [
     [
      "ripley",
@@ -5923,7 +5968,7 @@
    "tabs": [
     "alien"
    ],
-   "section": "Aliens (1986)",
+   "section": "Kenner Tribute remakes",
    "name": "Space Marine Vasquez (Kenner Tribute, Alien Day 2017)",
    "match": [
     [
@@ -5993,7 +6038,7 @@
    "tabs": [
     "alien"
    ],
-   "section": "Aliens (1986)",
+   "section": "Kenner Tribute remakes",
    "name": "Space Marine Apone (Kenner Tribute)",
    "match": [
     [
@@ -6007,7 +6052,7 @@
    "tabs": [
     "alien"
    ],
-   "section": "Aliens (1986)",
+   "section": "Kenner Tribute remakes",
    "name": "Space Marine Drake (Kenner Tribute)",
    "match": [
     [
@@ -6158,8 +6203,8 @@
    "tabs": [
     "alien"
    ],
-   "section": "Kenner Tribute creatures",
-   "name": "Albino Drone Alien",
+   "section": "Aliens (1986)",
+   "name": "Albino Drone Xenomorph (Series 9 concept, 2016)",
    "match": [
     [
      "albino"
@@ -6301,8 +6346,8 @@
    "tabs": [
     "alien"
    ],
-   "section": "Aliens (1986)",
-   "name": "Translucent Blue Warrior Alien",
+   "section": "Kenner Tribute remakes",
+   "name": "Warrior Alien (Kenner Tribute, translucent blue, Series 11, 2017)",
    "match": [
     [
      "translucent",
@@ -6310,18 +6355,7 @@
     ],
     [
      "translucent blue"
-    ]
-   ],
-   "not": []
-  },
-  {
-   "id": "alien-warrior-kenner",
-   "tabs": [
-    "alien"
-   ],
-   "section": "Aliens (1986)",
-   "name": "Warrior Alien (Kenner-style, 2017)",
-   "match": [
+    ],
     [
      "vicious alien attacker"
     ],
@@ -6330,9 +6364,7 @@
      "2017"
     ]
    ],
-   "not": [
-    "translucent"
-   ]
+   "not": []
   },
   {
    "id": "alien-prototype-quarter",
@@ -6583,7 +6615,7 @@
     "alien"
    ],
    "section": "Alien (1979)",
-   "name": "Big Chap (35th Anniversary)",
+   "name": "Big Chap (Series 2, 2013, 35th Anniversary packaging)",
    "match": [
     [
      "alien",
@@ -6592,6 +6624,19 @@
     [
      "xenomorph",
      "35th"
+    ],
+    [
+     "big chap",
+     "series 2"
+    ],
+    [
+     "xenomorph",
+     "series 2",
+     "alien"
+    ],
+    [
+     "big chap",
+     "clamshell"
     ]
    ],
    "not": []
@@ -6727,30 +6772,6 @@
     "queen",
     "nostromo"
    ]
-  },
-  {
-   "id": "alien-bigchap-s2",
-   "tabs": [
-    "alien"
-   ],
-   "section": "Alien (1979)",
-   "name": "Big Chap (Series 2, 2014 clamshell)",
-   "match": [
-    [
-     "big chap",
-     "series 2"
-    ],
-    [
-     "xenomorph",
-     "series 2",
-     "alien"
-    ],
-    [
-     "big chap",
-     "clamshell"
-    ]
-   ],
-   "not": []
   },
   {
    "id": "alien-bigchap",
